@@ -1,0 +1,7 @@
+# LTSpice simulation data (large binary files, 34–97 MB each)
+*.raw
+*.op.raw
+
+# Windows artifacts
+Thumbs.db
+desktop.ini
