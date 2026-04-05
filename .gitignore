@@ -5,3 +5,6 @@
 # Windows artifacts
 Thumbs.db
 desktop.ini
+
+# Auto-sync log (local to each machine)
+.sync_log.txt
