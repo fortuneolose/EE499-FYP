@@ -1,0 +1,56 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\avent\Downloads\LTC1871_SEPIC_FYP.net
+Start Time: Mon Apr  6 08:43:52 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+.step vin=8
+.step vin=9.6
+.step vin=11
+Total elapsed time: 20.121 seconds.
+
+Files loaded:
+C:\Users\avent\Downloads\LTC1871_SEPIC_FYP.net
+C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\avent\AppData\Local\LTspice\lib\sub\LTC1871-1.sub
+
+
+Measurement: vout_avg
+  step	AVG(V(OUT))	FROM	TO
+     1	12.193691545	0.003	0.005
+     2	12.1940824098	0.003	0.005
+     3	12.1943456366	0.003	0.005
+
+Measurement: vout_ripple
+  step	PP(V(OUT))	FROM	TO
+     1	0.0482959747314	0.004	0.005
+     2	0.0438776016235	0.004	0.005
+     3	0.0403165817261	0.004	0.005
+
+Measurement: il1_peak
+  step	MAX(I(L1))	FROM	TO
+     1	5.98433828354	0.003	0.005
+     2	5.48363685608	0.003	0.005
+     3	5.15387105942	0.003	0.005
+
+Measurement: il2_peak
+  step	MAX(I(L2))	FROM	TO
+     1	5.12497234344	0.003	0.005
+     2	4.65741252899	0.003	0.005
+     3	4.37766122818	0.003	0.005
+
+Measurement: pin
+  step	AVG(V(IN)*(-I(V1)))	FROM	TO
+     1	26.7147411072	0.004	0.005
+     2	26.618637393	0.004	0.005
+     3	26.5237538326	0.004	0.005
+
+Measurement: pout
+  step	AVG(V(OUT)*V(OUT)/6)	FROM	TO
+     1	24.7810952446	0.004	0.005
+     2	24.7826048278	0.004	0.005
+     3	24.7836946479	0.004	0.005
