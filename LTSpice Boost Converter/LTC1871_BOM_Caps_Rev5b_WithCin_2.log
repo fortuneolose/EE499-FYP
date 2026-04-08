@@ -1,13 +1,13 @@
 LTspice 24.1.10 for Windows
 Circuit: C:\Users\avent\OneDrive\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_BOM_Caps_Rev5b_WithCin_2.net
-Start Time: Wed Apr  8 12:47:08 2026
+Start Time: Wed Apr  8 19:27:41 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
 temp = 27
 method = trap
 Per .tran options, skipping operating point for transient analysis.
-Total elapsed time: 5.419 seconds.
+Total elapsed time: 5.473 seconds.
 
 Files loaded:
 C:\Users\avent\OneDrive\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_BOM_Caps_Rev5b_WithCin_2.net
