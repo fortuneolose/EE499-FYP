@@ -25,7 +25,7 @@ C5 OUT 0 100µ
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
-.param VIN=10
+.param VIN=9.6
 .tran 0 10m 5m uic
 ; --- PRE-STEP BASELINE ---
 .meas TRAN Vout_before AVG V(OUT) FROM 0 TO 0.4m
