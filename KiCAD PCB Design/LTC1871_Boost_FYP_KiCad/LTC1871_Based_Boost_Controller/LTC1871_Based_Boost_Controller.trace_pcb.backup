@@ -51,10 +51,10 @@ segment start 29.4373,33.0753 end 30.7299,31.7827 width 0.25 layer "F.Cu" net Ne
 segment start 52.07,19.685 end 39.485,19.685 width 0.8 layer "F.Cu" net Net-(D1-K) uid e2093cd8-006f-4ed4-be49-3bbd73c0a076
 segment start 35.4437,43.394 end 29.4373,37.3876 width 0.8 layer "F.Cu" net Net-(D1-K) uid e2c05224-ede8-45e0-a4a1-fa4189479eaf
 segment start 39.485,19.685 end 36.31,22.86 width 0.8 layer "F.Cu" net Net-(D1-K) uid e899867e-9e96-4803-8421-81afb99cbe04
-segment start 15.1217,22.86 end 15.1217,22.5721 width 0.25 layer "B.Cu" net Net-(D1-K) uid 1aec87f5-18be-4eca-b6bf-51f8a3dc3031
-segment start 15.1217,22.5721 end 23.7238,13.97 width 0.25 layer "B.Cu" net Net-(D1-K) uid 1ebc6375-04be-4ead-9a4f-888dade1d293
-segment start 13.97,22.86 end 15.1217,22.86 width 0.25 layer "B.Cu" net Net-(D1-K) uid a03132df-2b18-4c0d-bd9d-d4827f2cad4d
-segment start 23.7238,13.97 end 52.07,13.97 width 0.25 layer "B.Cu" net Net-(D1-K) uid c36fba5e-32ec-4ddf-b087-4e6433b255b2
+segment start 15.1217,22.86 end 15.1217,22.5721 width 0.8 layer "B.Cu" net Net-(D1-K) uid 1aec87f5-18be-4eca-b6bf-51f8a3dc3031
+segment start 15.1217,22.5721 end 23.7238,13.97 width 0.8 layer "B.Cu" net Net-(D1-K) uid 1ebc6375-04be-4ead-9a4f-888dade1d293
+segment start 13.97,22.86 end 15.1217,22.86 width 0.8 layer "B.Cu" net Net-(D1-K) uid a03132df-2b18-4c0d-bd9d-d4827f2cad4d
+segment start 23.7238,13.97 end 52.07,13.97 width 0.8 layer "B.Cu" net Net-(D1-K) uid c36fba5e-32ec-4ddf-b087-4e6433b255b2
 segment start 22.86,44.45 end 22.86,26.35 width 0.8 layer "F.Cu" net Net-(D1-A) uid 39930436-5dd9-474b-ad48-bf5d0335ed32
 segment start 64.405,60.96 end 64.405,66.04 width 0.8 layer "F.Cu" net Net-(D1-A) uid 4239727d-5eb7-46e3-a845-d3a0aa1a2345
 segment start 16.51,50.8 end 22.86,44.45 width 0.8 layer "F.Cu" net Net-(D1-A) uid 48cc0126-673d-47fa-bf03-8584fc5840dc
