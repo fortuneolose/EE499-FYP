@@ -3583,10 +3583,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0434d30e-f353-4689-acaa-d286eba77a32")
 		(property "Reference" "C5"
-			(at 256.54 96.9009 0)
+			(at 253.492 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3597,7 +3596,7 @@
 			)
 		)
 		(property "Value" "100µ"
-			(at 256.54 99.4409 0)
+			(at 253.492 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4402,10 +4401,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ad04e3d-3886-4901-ae05-ab276297a1a5")
 		(property "Reference" "C1b1"
-			(at 270.51 96.5199 0)
+			(at 267.97 94.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4416,7 +4414,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 270.51 99.0599 0)
+			(at 267.716 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6160,7 +6158,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b1bfdc6-608a-4a8a-81c1-071319356eab")
 		(property "Reference" "#FLG01"
 			(at 76.2 31.115 0)
@@ -6174,7 +6171,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 76.2 27.94 0)
+			(at 76.454 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6398,10 +6395,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b32cbccb-f0b7-4e0b-91de-831cc011adee")
 		(property "Reference" "C1b2"
-			(at 280.67 100.3299 0)
+			(at 278.13 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6412,7 +6408,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 280.67 102.8699 0)
+			(at 278.13 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
