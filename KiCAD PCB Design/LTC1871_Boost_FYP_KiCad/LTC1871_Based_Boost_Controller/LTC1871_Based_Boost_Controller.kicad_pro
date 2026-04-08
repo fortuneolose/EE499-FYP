@@ -124,7 +124,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -137,7 +137,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.25,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -244,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|838200|939800|02075c34-e464-4643-a499-2b934758eb42|d2a9e866-382c-4498-8a4a-d787e72b57da|/afd51646-14c5-4e75-88ba-419bc48b66e0|/afd51646-14c5-4e75-88ba-419bc48b66e0|/afd51646-14c5-4e75-88ba-419bc48b66e0",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -632,7 +637,7 @@
         "uuid": "afd51646-14c5-4e75-88ba-419bc48b66e0"
       }
     ],
-    "used_designators": "L1,D1,#PWR1-7,#PWR9-25,#FLG1-2,R1-3,U2,C1-2,C4-15,Q1,Cin1,J1-2,J_VIN1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
