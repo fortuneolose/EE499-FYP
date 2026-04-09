@@ -3996,10 +3996,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e3ebe18-803d-4159-825d-b452647b3b5c")
 		(property "Reference" "C1"
-			(at 59.69 88.8999 0)
+			(at 56.388 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4010,7 +4009,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 59.69 91.4399 0)
+			(at 56.388 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5596,7 +5595,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "883fcc0e-d591-4b92-ae08-7e5f34bbc953")
 		(property "Reference" "#PWR02"
 			(at 59.69 100.33 0)
@@ -5610,7 +5608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 99.06 0)
+			(at 59.944 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6870,10 +6868,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cec8f2de-8d8d-4356-8b08-04c26af011d4")
 		(property "Reference" "C3"
-			(at 49.53 88.8999 0)
+			(at 47.244 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6884,7 +6881,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 49.53 91.4399 0)
+			(at 47.244 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
