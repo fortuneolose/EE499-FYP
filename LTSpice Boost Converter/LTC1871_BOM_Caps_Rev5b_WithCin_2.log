@@ -1,13 +1,13 @@
 LTspice 24.1.10 for Windows
 Circuit: C:\Users\avent\OneDrive\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_BOM_Caps_Rev5b_WithCin_2.net
-Start Time: Wed Apr  8 19:33:31 2026
+Start Time: Sat Apr 11 09:17:57 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
 temp = 27
 method = trap
 Per .tran options, skipping operating point for transient analysis.
-Total elapsed time: 5.729 seconds.
+Total elapsed time: 8.472 seconds.
 
 Files loaded:
 C:\Users\avent\OneDrive\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_BOM_Caps_Rev5b_WithCin_2.net
@@ -15,23 +15,23 @@ C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.dio
 C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\avent\AppData\Local\LTspice\lib\sub\LTC1871.sub
 
-vout_before: AVG(V(OUT))=12.2141541695 FROM 0 TO 0.0004
-vin_before: AVG(V(IN))=9.55731991095 FROM 0 TO 0.0004
-vout_ripple_pre: PP(V(OUT))=0.104432106018 FROM 0 TO 0.0004
-vout_droop1: MIN(V(OUT))=12.1526613235 FROM 0.0005 TO 0.0014
-vout_post1: AVG(V(OUT))=12.1929483755 FROM 0.001 TO 0.0014
-vin_droop1: MIN(V(IN))=9.43925666809 FROM 0.0005 TO 0.0014
-vout_idle: AVG(V(OUT))=12.2192220015 FROM 0.0021 TO 0.0034
-vout_droop2: MIN(V(OUT))=12.130613327 FROM 0.0035 TO 0.0044
-vout_post2: AVG(V(OUT))=12.1946304696 FROM 0.0038 TO 0.0044
-vin_droop2: MIN(V(IN))=9.36862945557 FROM 0.0035 TO 0.0044
-vout_ripple: PP(V(OUT))=0.127345085144 FROM 0.0038 TO 0.0044
-il_peak: MAX(I(L1))=6.46359014511 FROM 0.0039 TO 0.0044
-il_peak_pre: MAX(I(L1))=3.9527721405 FROM 0 TO 0.0004
-pin: AVG(V(IN)*(-I(V1)))=26.4783510448 FROM 0.0042 TO 0.0044
-pout: AVG(V(OUT)*I(I1))=24.3892609392 FROM 0.0038 TO 0.0044
-loadreg: abs(Vout_before-Vout_post2)=0.0195236999341
-eff: Pout/Pin*100=92.1101956006
-vin_drop1: Vin_before-Vin_droop1=0.118063242856
-vin_drop2: Vin_before-Vin_droop2=0.18869045538
-dc_dev: RMS(V(out) - 12.1985)=0.0334227648712 FROM 0 TO 0.005
+vout_before: AVG(V(OUT))=0.111353368277 FROM 0 TO 0.0004
+vin_before: AVG(V(IN))=3.74320944252 FROM 0 TO 0.0004
+vout_ripple_pre: PP(V(OUT))=0.119808606803 FROM 0 TO 0.0004
+vout_droop1: MIN(V(OUT))=0.0359535440803 FROM 0.0005 TO 0.0014
+vout_post1: AVG(V(OUT))=0.0363400374511 FROM 0.001 TO 0.0014
+vin_droop1: MIN(V(IN))=3.74073719978 FROM 0.0005 TO 0.0014
+vout_idle: AVG(V(OUT))=0.1523936556 FROM 0.0021 TO 0.0034
+vout_droop2: MIN(V(OUT))=0.0049237688072 FROM 0.0035 TO 0.0044
+vout_post2: AVG(V(OUT))=0.00536326981211 FROM 0.0038 TO 0.0044
+vin_droop2: MIN(V(IN))=3.73964691162 FROM 0.0035 TO 0.0044
+vout_ripple: PP(V(OUT))=0.000706881750375 FROM 0.0038 TO 0.0044
+il_peak: MAX(I(L1))=117.191314697 FROM 0.0039 TO 0.0044
+il_peak_pre: MAX(I(L1))=117.142875671 FROM 0 TO 0.0004
+pin: AVG(V(IN)*(-I(V1)))=438.314211731 FROM 0.0042 TO 0.0044
+pout: AVG(V(OUT)*I(I1))=0.0107265396242 FROM 0.0038 TO 0.0044
+loadreg: abs(Vout_before-Vout_post2)=0.105990098465
+eff: Pout/Pin*100=0.0024472260623
+vin_drop1: Vin_before-Vin_droop1=0.0024722427357
+vin_drop2: Vin_before-Vin_droop2=0.00356253089794
+dc_dev: RMS(V(out) - 12.1985)=12.1218731687 FROM 0 TO 0.005

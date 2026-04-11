@@ -2973,6 +2973,46 @@
 		(color 0 0 0 0)
 		(uuid "f830ad1f-6bb8-4f83-8686-bc24e2e05975")
 	)
+	(no_connect
+		(at 52.07 160.02)
+		(uuid "150c6ec3-4fe8-42de-a368-3e84080a727a")
+	)
+	(no_connect
+		(at 91.44 147.32)
+		(uuid "33e32eb9-d911-4008-aa32-82507c04addf")
+	)
+	(no_connect
+		(at 52.07 133.35)
+		(uuid "40efe416-0776-49f7-a627-9b8f67cc4c69")
+	)
+	(no_connect
+		(at 91.44 152.4)
+		(uuid "462e09ad-7c6f-4d32-9b50-4d14b9fe7887")
+	)
+	(no_connect
+		(at 52.07 162.56)
+		(uuid "4e1413a1-34af-4ddd-9c46-357e4b8c661b")
+	)
+	(no_connect
+		(at 52.07 165.1)
+		(uuid "54201247-0f5a-43f8-90df-330c1c4fd1f4")
+	)
+	(no_connect
+		(at 52.07 125.73)
+		(uuid "714a1343-5c11-474b-914e-290dc301308e")
+	)
+	(no_connect
+		(at 91.44 149.86)
+		(uuid "cf5ae2d2-98af-475a-a5bb-b2364b2f67db")
+	)
+	(no_connect
+		(at 52.07 128.27)
+		(uuid "ea643db8-1828-41c6-88fd-a9151a0664b3")
+	)
+	(no_connect
+		(at 52.07 130.81)
+		(uuid "f66df211-2e46-466c-a297-0d746b0c9158")
+	)
 	(wire
 		(pts
 			(xy 34.29 107.95) (xy 53.34 107.95)
@@ -6736,7 +6776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF7811"
+		(property "Value" "SQ4184EY"
 			(at 165.1 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
