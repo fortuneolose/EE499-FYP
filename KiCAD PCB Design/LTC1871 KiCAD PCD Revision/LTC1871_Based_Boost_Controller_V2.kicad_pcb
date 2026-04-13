@@ -2410,11 +2410,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0e13d812-22d2-47db-8c9d-97ddb4975276")
-		(at 133 111.5 -90)
+		(at 133 116 -90)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J5"
-			(at 0 -2.38 -90)
+			(at 0 -2.38 270)
 			(layer "F.SilkS")
 			(uuid "ab80600a-8239-4075-992d-2f3ff8582419")
 			(effects
@@ -2425,7 +2425,7 @@
 			)
 		)
 		(property "Value" "Proto_2"
-			(at -2.5 9.46 180)
+			(at -2.5 9 180)
 			(layer "F.Fab")
 			(uuid "5d3b27ef-1cd5-4c1b-ab58-a54b43447b91")
 			(effects
@@ -5852,11 +5852,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a0727e79-341e-46ea-ad36-2d89ade73193")
-		(at 133 116 -90)
+		(at 133 106.5 -90)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.38 -90)
+			(at 0 -2.38 270)
 			(layer "F.SilkS")
 			(uuid "b2109137-5923-402c-a0e1-07c0df281db1")
 			(effects
@@ -5867,7 +5867,7 @@
 			)
 		)
 		(property "Value" "Proto_GND"
-			(at -2.5 8.5 180)
+			(at -2.5 8 180)
 			(layer "F.Fab")
 			(uuid "835e39f5-72ca-4b98-90ca-a72d295a5705")
 			(effects
@@ -6529,11 +6529,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c7d40c87-d4ea-43c0-87f7-e27c511f1312")
-		(at 133 106.5 -90)
+		(at 133 111.5 -90)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.38 -90)
+			(at 0 -2.38 270)
 			(layer "F.SilkS")
 			(uuid "8697049d-be64-4071-90c7-140edcddb11e")
 			(effects
@@ -6544,7 +6544,7 @@
 			)
 		)
 		(property "Value" "Proto_1"
-			(at -2.5 8.5 180)
+			(at -2.5 9 180)
 			(layer "F.Fab")
 			(uuid "3b27cf22-5bd5-460b-a0d1-1469b19b6fb9")
 			(effects
