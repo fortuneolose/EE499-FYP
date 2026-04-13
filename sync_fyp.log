@@ -320,3 +320,511 @@
 2026-04-11 22:48:48  fetch: 
 2026-04-11 22:48:49  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD error: Your local changes to the following files would be overwritten by merge: 	KiCAD PCB Design/LTC1871_Boost_FYP_KiCad/LTC1871_Based_Boost_Controller/LTC1871_Based_Boost_Controller.kicad_pro Please commit your changes or stash them before you merge. error: The following untracked working tree files would be overwritten by merge: 	KiCAD PCB Design/LTC1871_Boost_FYP_KiCad/LTC1871_Based_Boost_Controller/~LTC1871_Based_Boost_Controller.kicad_sch.lck Please move or remove them before you merge. Updating f673001..7125335 Aborting
 2026-04-11 22:48:49  Sync complete. Next sync in 15m.
+2026-04-11 23:03:49  Network available after 0s.
+2026-04-11 23:03:50  fetch: 
+2026-04-11 23:03:51  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-11 23:03:51  Sync complete. Next sync in 15m.
+2026-04-11 23:18:51  Network available after 0s.
+2026-04-11 23:18:51  fetch: 
+2026-04-11 23:18:52  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-11 23:18:52  Sync complete. Next sync in 15m.
+2026-04-11 23:33:52  Network available after 0s.
+2026-04-11 23:33:53  fetch: 
+2026-04-11 23:33:54  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-11 23:33:54  Sync complete. Next sync in 15m.
+2026-04-11 23:48:54  Network available after 0s.
+2026-04-11 23:48:54  fetch: 
+2026-04-11 23:48:55  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-11 23:48:55  Sync complete. Next sync in 15m.
+2026-04-12 00:03:55  Network available after 0s.
+2026-04-12 00:03:56  fetch: 
+2026-04-12 00:03:57  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 00:03:57  Sync complete. Next sync in 15m.
+2026-04-12 00:19:05  Network available after 5s.
+2026-04-12 00:19:06  fetch: 
+2026-04-12 00:19:07  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 00:19:07  Sync complete. Next sync in 15m.
+2026-04-12 00:34:07  Network available after 0s.
+2026-04-12 00:34:08  fetch: 
+2026-04-12 00:34:09  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 00:34:09  Sync complete. Next sync in 15m.
+2026-04-12 00:49:09  Network available after 0s.
+2026-04-12 00:49:09  fetch: 
+2026-04-12 00:49:10  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 00:49:10  Sync complete. Next sync in 15m.
+2026-04-12 01:04:10  Network available after 0s.
+2026-04-12 01:04:11  fetch: 
+2026-04-12 01:04:12  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 01:04:12  Sync complete. Next sync in 15m.
+2026-04-12 01:19:12  Network available after 0s.
+2026-04-12 01:19:14  fetch: 
+2026-04-12 01:19:14  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 01:19:14  Sync complete. Next sync in 15m.
+2026-04-12 01:34:15  Network available after 0s.
+2026-04-12 01:34:16  fetch: 
+2026-04-12 01:34:16  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 01:34:16  Sync complete. Next sync in 15m.
+2026-04-12 01:49:17  Network available after 0s.
+2026-04-12 01:49:17  fetch: 
+2026-04-12 01:49:18  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 01:49:18  Sync complete. Next sync in 15m.
+2026-04-12 02:04:18  Network available after 0s.
+2026-04-12 02:04:19  fetch: 
+2026-04-12 02:04:20  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 02:04:20  Sync complete. Next sync in 15m.
+2026-04-12 02:19:20  Network available after 0s.
+2026-04-12 02:19:20  fetch: 
+2026-04-12 02:19:21  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 02:19:21  Sync complete. Next sync in 15m.
+2026-04-12 02:34:21  Network available after 0s.
+2026-04-12 02:34:22  fetch: 
+2026-04-12 02:34:23  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 02:34:23  Sync complete. Next sync in 15m.
+2026-04-12 02:49:23  Network available after 0s.
+2026-04-12 02:49:23  fetch: 
+2026-04-12 02:49:24  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 02:49:24  Sync complete. Next sync in 15m.
+2026-04-12 03:04:24  Network available after 0s.
+2026-04-12 03:04:25  fetch: 
+2026-04-12 03:04:26  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 03:04:26  Sync complete. Next sync in 15m.
+2026-04-12 03:19:26  Network available after 0s.
+2026-04-12 03:19:26  fetch: 
+2026-04-12 03:19:27  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 03:19:27  Sync complete. Next sync in 15m.
+2026-04-12 03:34:27  Network available after 0s.
+2026-04-12 03:34:28  fetch: 
+2026-04-12 03:34:29  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 03:34:29  Sync complete. Next sync in 15m.
+2026-04-12 03:49:29  Network available after 0s.
+2026-04-12 03:49:29  fetch: 
+2026-04-12 03:49:30  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 03:49:30  Sync complete. Next sync in 15m.
+2026-04-12 04:04:30  Network available after 0s.
+2026-04-12 04:04:31  fetch: 
+2026-04-12 04:04:32  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 04:04:32  Sync complete. Next sync in 15m.
+2026-04-12 04:19:32  Network available after 0s.
+2026-04-12 04:19:33  fetch: 
+2026-04-12 04:19:33  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 04:19:33  Sync complete. Next sync in 15m.
+2026-04-12 04:34:33  Network available after 0s.
+2026-04-12 04:34:34  fetch: 
+2026-04-12 04:34:35  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 04:34:35  Sync complete. Next sync in 15m.
+2026-04-12 04:49:35  Network available after 0s.
+2026-04-12 04:49:36  fetch: 
+2026-04-12 04:49:36  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 04:49:36  Sync complete. Next sync in 15m.
+2026-04-12 05:04:37  Network available after 0s.
+2026-04-12 05:04:37  fetch: 
+2026-04-12 05:04:38  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 05:04:38  Sync complete. Next sync in 15m.
+2026-04-12 05:19:38  Network available after 0s.
+2026-04-12 05:19:39  fetch: 
+2026-04-12 05:19:39  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 05:19:39  Sync complete. Next sync in 15m.
+2026-04-12 05:34:40  Network available after 0s.
+2026-04-12 05:34:40  fetch: 
+2026-04-12 05:34:41  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 05:34:41  Sync complete. Next sync in 15m.
+2026-04-12 05:49:41  Network available after 0s.
+2026-04-12 05:49:42  fetch: 
+2026-04-12 05:49:43  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 05:49:43  Sync complete. Next sync in 15m.
+2026-04-12 06:04:43  Network available after 0s.
+2026-04-12 06:04:43  fetch: 
+2026-04-12 06:04:44  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 06:04:44  Sync complete. Next sync in 15m.
+2026-04-12 06:19:44  Network available after 0s.
+2026-04-12 06:19:45  fetch: 
+2026-04-12 06:19:45  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 06:19:45  Sync complete. Next sync in 15m.
+2026-04-12 06:34:45  Network available after 0s.
+2026-04-12 06:34:46  fetch: 
+2026-04-12 06:34:47  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 06:34:47  Sync complete. Next sync in 15m.
+2026-04-12 06:49:47  Network available after 0s.
+2026-04-12 06:49:47  fetch: 
+2026-04-12 06:49:48  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 06:49:48  Sync complete. Next sync in 15m.
+2026-04-12 07:04:48  Network available after 0s.
+2026-04-12 07:04:49  fetch: 
+2026-04-12 07:04:50  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 07:04:50  Sync complete. Next sync in 15m.
+2026-04-12 07:19:50  Network available after 0s.
+2026-04-12 07:19:50  fetch: 
+2026-04-12 07:19:51  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 07:19:51  Sync complete. Next sync in 15m.
+2026-04-12 07:34:51  Network available after 0s.
+2026-04-12 07:34:52  fetch: 
+2026-04-12 07:34:54  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 07:34:54  Sync complete. Next sync in 15m.
+2026-04-12 07:49:54  Network available after 0s.
+2026-04-12 07:49:56  fetch: 
+2026-04-12 07:49:57  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 07:49:57  Sync complete. Next sync in 15m.
+2026-04-12 08:04:57  Network available after 0s.
+2026-04-12 08:04:59  fetch: 
+2026-04-12 08:05:00  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 08:05:00  Sync complete. Next sync in 15m.
+2026-04-12 08:20:00  Network available after 0s.
+2026-04-12 08:20:05  fetch: 
+2026-04-12 08:20:09  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 08:20:09  Sync complete. Next sync in 15m.
+2026-04-12 08:35:09  Network available after 0s.
+2026-04-12 08:35:10  fetch: 
+2026-04-12 08:35:12  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 08:35:12  Sync complete. Next sync in 15m.
+2026-04-12 08:50:12  Network available after 0s.
+2026-04-12 08:50:13  fetch: 
+2026-04-12 08:50:15  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 08:50:15  Sync complete. Next sync in 15m.
+2026-04-12 09:05:15  Network available after 0s.
+2026-04-12 09:05:16  fetch: 
+2026-04-12 09:05:17  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 09:05:17  Sync complete. Next sync in 15m.
+2026-04-12 09:20:17  Network available after 0s.
+2026-04-12 09:20:19  fetch: 
+2026-04-12 09:20:21  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 09:20:21  Sync complete. Next sync in 15m.
+2026-04-12 09:35:22  Network available after 0s.
+2026-04-12 09:35:23  fetch: 
+2026-04-12 09:35:25  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 09:35:25  Sync complete. Next sync in 15m.
+2026-04-12 09:50:26  Network available after 0s.
+2026-04-12 09:50:28  fetch: 
+2026-04-12 09:50:31  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 09:50:31  Sync complete. Next sync in 15m.
+2026-04-12 10:05:31  Network available after 0s.
+2026-04-12 10:05:34  fetch: 
+2026-04-12 10:05:36  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 10:05:36  Sync complete. Next sync in 15m.
+2026-04-12 10:20:36  Network available after 0s.
+2026-04-12 10:20:38  fetch: 
+2026-04-12 10:20:40  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 10:20:40  Sync complete. Next sync in 15m.
+2026-04-12 10:35:40  Network available after 0s.
+2026-04-12 10:35:41  fetch: 
+2026-04-12 10:35:43  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 10:35:43  Sync complete. Next sync in 15m.
+2026-04-12 10:50:43  Network available after 0s.
+2026-04-12 10:50:45  fetch: 
+2026-04-12 10:50:46  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 10:50:46  Sync complete. Next sync in 15m.
+2026-04-12 11:05:47  Network available after 0s.
+2026-04-12 11:05:50  fetch: 
+2026-04-12 11:05:54  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 11:05:54  Sync complete. Next sync in 15m.
+2026-04-12 11:20:54  Network available after 0s.
+2026-04-12 11:20:55  fetch: 
+2026-04-12 11:20:56  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 11:20:56  Sync complete. Next sync in 15m.
+2026-04-12 11:35:56  Network available after 0s.
+2026-04-12 11:35:57  fetch: 
+2026-04-12 11:35:58  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 11:35:58  Sync complete. Next sync in 15m.
+2026-04-12 11:50:58  Network available after 0s.
+2026-04-12 11:50:59  fetch: 
+2026-04-12 11:50:59  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 11:50:59  Sync complete. Next sync in 15m.
+2026-04-12 12:05:59  Network available after 0s.
+2026-04-12 12:06:01  fetch: 
+2026-04-12 12:06:03  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 12:06:03  Sync complete. Next sync in 15m.
+2026-04-12 12:21:03  Network available after 0s.
+2026-04-12 12:21:04  fetch: 
+2026-04-12 12:21:05  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 12:21:05  Sync complete. Next sync in 15m.
+2026-04-12 12:36:05  Network available after 0s.
+2026-04-12 12:36:05  fetch: 
+2026-04-12 12:36:06  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 12:36:06  Sync complete. Next sync in 15m.
+2026-04-12 12:51:06  Network available after 0s.
+2026-04-12 12:51:07  fetch: 
+2026-04-12 12:51:08  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 12:51:08  Sync complete. Next sync in 15m.
+2026-04-12 13:06:08  Network available after 0s.
+2026-04-12 13:06:09  fetch: 
+2026-04-12 13:06:09  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 13:06:09  Sync complete. Next sync in 15m.
+2026-04-12 13:21:10  Network available after 0s.
+2026-04-12 13:21:10  fetch: 
+2026-04-12 13:21:11  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 13:21:11  Sync complete. Next sync in 15m.
+2026-04-12 13:36:11  Network available after 0s.
+2026-04-12 13:36:13  fetch: 
+2026-04-12 13:36:14  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 13:36:14  Sync complete. Next sync in 15m.
+2026-04-12 13:51:14  Network available after 0s.
+2026-04-12 13:51:16  fetch: 
+2026-04-12 13:51:18  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 13:51:18  Sync complete. Next sync in 15m.
+2026-04-12 14:06:18  Network available after 0s.
+2026-04-12 14:06:19  fetch: 
+2026-04-12 14:06:21  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 14:06:21  Sync complete. Next sync in 15m.
+2026-04-12 14:21:21  Network available after 0s.
+2026-04-12 14:21:21  fetch: 
+2026-04-12 14:21:22  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 14:21:22  Sync complete. Next sync in 15m.
+2026-04-12 14:36:22  Network available after 0s.
+2026-04-12 14:36:23  fetch: 
+2026-04-12 14:36:24  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 14:36:24  Sync complete. Next sync in 15m.
+2026-04-12 14:51:24  Network available after 0s.
+2026-04-12 14:51:25  fetch: 
+2026-04-12 14:51:25  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 14:51:25  Sync complete. Next sync in 15m.
+2026-04-12 15:06:25  Network available after 0s.
+2026-04-12 15:06:26  fetch: 
+2026-04-12 15:06:27  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 15:06:27  Sync complete. Next sync in 15m.
+2026-04-12 15:21:27  Network available after 0s.
+2026-04-12 15:21:29  fetch: 
+2026-04-12 15:21:30  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 15:21:30  Sync complete. Next sync in 15m.
+2026-04-12 15:36:31  Network available after 0s.
+2026-04-12 15:36:31  fetch: 
+2026-04-12 15:36:32  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 15:36:32  Sync complete. Next sync in 15m.
+2026-04-12 15:51:32  Network available after 0s.
+2026-04-12 15:51:33  fetch: 
+2026-04-12 15:51:34  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 15:51:34  Sync complete. Next sync in 15m.
+2026-04-12 16:06:34  Network available after 0s.
+2026-04-12 16:06:34  fetch: 
+2026-04-12 16:06:35  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 16:06:35  Sync complete. Next sync in 15m.
+2026-04-12 16:21:35  Network available after 0s.
+2026-04-12 16:21:36  fetch: 
+2026-04-12 16:21:37  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 16:21:37  Sync complete. Next sync in 15m.
+2026-04-12 16:36:37  Network available after 0s.
+2026-04-12 16:36:40  fetch: 
+2026-04-12 16:36:42  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 16:36:42  Sync complete. Next sync in 15m.
+2026-04-12 16:51:42  Network available after 0s.
+2026-04-12 16:51:43  fetch: 
+2026-04-12 16:51:43  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 16:51:43  Sync complete. Next sync in 15m.
+2026-04-12 17:06:43  Network available after 0s.
+2026-04-12 17:06:44  fetch: 
+2026-04-12 17:06:45  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 17:06:45  Sync complete. Next sync in 15m.
+2026-04-12 17:21:45  Network available after 0s.
+2026-04-12 17:21:46  fetch: 
+2026-04-12 17:21:47  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 17:21:47  Sync complete. Next sync in 15m.
+2026-04-12 17:36:47  Network available after 0s.
+2026-04-12 17:36:47  fetch: 
+2026-04-12 17:36:48  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 17:36:48  Sync complete. Next sync in 15m.
+2026-04-12 17:51:48  Network available after 0s.
+2026-04-12 17:51:49  fetch: 
+2026-04-12 17:51:50  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 17:51:50  Sync complete. Next sync in 15m.
+2026-04-12 18:06:50  Network available after 0s.
+2026-04-12 18:06:50  fetch: 
+2026-04-12 18:06:51  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 18:06:51  Sync complete. Next sync in 15m.
+2026-04-12 18:21:51  Network available after 0s.
+2026-04-12 18:21:52  fetch: 
+2026-04-12 18:21:53  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 18:21:53  Sync complete. Next sync in 15m.
+2026-04-12 18:36:53  Network available after 0s.
+2026-04-12 18:36:53  fetch: 
+2026-04-12 18:36:54  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 18:36:54  Sync complete. Next sync in 15m.
+2026-04-12 18:51:54  Network available after 0s.
+2026-04-12 18:51:55  fetch: 
+2026-04-12 18:51:56  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 18:51:56  Sync complete. Next sync in 15m.
+2026-04-12 19:06:56  Network available after 0s.
+2026-04-12 19:06:57  fetch: 
+2026-04-12 19:06:58  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 19:06:58  Sync complete. Next sync in 15m.
+2026-04-12 19:21:58  Network available after 0s.
+2026-04-12 19:21:59  fetch: 
+2026-04-12 19:21:59  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 19:21:59  Sync complete. Next sync in 15m.
+2026-04-12 19:36:59  Network available after 0s.
+2026-04-12 19:37:00  fetch: 
+2026-04-12 19:37:01  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 19:37:01  Sync complete. Next sync in 15m.
+2026-04-12 19:52:01  Network available after 0s.
+2026-04-12 19:52:02  fetch: 
+2026-04-12 19:52:02  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 19:52:02  Sync complete. Next sync in 15m.
+2026-04-12 20:07:02  Network available after 0s.
+2026-04-12 20:07:03  fetch: 
+2026-04-12 20:07:04  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 20:07:04  Sync complete. Next sync in 15m.
+2026-04-12 20:22:04  Network available after 0s.
+2026-04-12 20:22:05  fetch: 
+2026-04-12 20:22:05  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 20:22:05  Sync complete. Next sync in 15m.
+2026-04-12 20:37:04  Network available after 0s.
+2026-04-12 20:37:05  fetch: 
+2026-04-12 20:37:06  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 20:37:06  Sync complete. Next sync in 15m.
+2026-04-12 20:52:06  Network available after 0s.
+2026-04-12 20:52:06  fetch: 
+2026-04-12 20:52:07  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 20:52:07  Sync complete. Next sync in 15m.
+2026-04-12 21:07:07  Network available after 0s.
+2026-04-12 21:07:08  fetch: 
+2026-04-12 21:07:09  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 21:07:09  Sync complete. Next sync in 15m.
+2026-04-12 21:22:09  Network available after 0s.
+2026-04-12 21:22:10  fetch: 
+2026-04-12 21:22:11  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 21:22:11  Sync complete. Next sync in 15m.
+2026-04-12 21:37:11  Network available after 0s.
+2026-04-12 21:37:12  fetch: 
+2026-04-12 21:37:12  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 21:37:12  Sync complete. Next sync in 15m.
+2026-04-12 21:52:12  Network available after 0s.
+2026-04-12 21:52:13  fetch: 
+2026-04-12 21:52:14  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 21:52:14  Sync complete. Next sync in 15m.
+2026-04-12 22:07:14  Network available after 0s.
+2026-04-12 22:07:15  fetch: 
+2026-04-12 22:07:15  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 22:07:15  Sync complete. Next sync in 15m.
+2026-04-12 22:22:16  Network available after 0s.
+2026-04-12 22:22:16  fetch: 
+2026-04-12 22:22:17  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 22:22:17  Sync complete. Next sync in 15m.
+2026-04-12 22:37:17  Network available after 0s.
+2026-04-12 22:37:18  fetch: 
+2026-04-12 22:37:19  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 22:37:19  Sync complete. Next sync in 15m.
+2026-04-12 22:52:19  Network available after 0s.
+2026-04-12 22:52:20  fetch: 
+2026-04-12 22:52:20  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 22:52:20  Sync complete. Next sync in 15m.
+2026-04-12 23:07:20  Network available after 0s.
+2026-04-12 23:07:21  fetch: 
+2026-04-12 23:07:22  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 23:07:22  Sync complete. Next sync in 15m.
+2026-04-12 23:22:22  Network available after 0s.
+2026-04-12 23:22:23  fetch: 
+2026-04-12 23:22:24  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 23:22:24  Sync complete. Next sync in 15m.
+2026-04-12 23:37:24  Network available after 0s.
+2026-04-12 23:37:25  fetch: 
+2026-04-12 23:37:26  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 23:37:26  Sync complete. Next sync in 15m.
+2026-04-12 23:52:26  Network available after 0s.
+2026-04-12 23:52:27  fetch: 
+2026-04-12 23:52:27  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-12 23:52:27  Sync complete. Next sync in 15m.
+2026-04-13 00:07:27  Network available after 0s.
+2026-04-13 00:07:28  fetch: 
+2026-04-13 00:07:29  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 00:07:29  Sync complete. Next sync in 15m.
+2026-04-13 00:22:29  Network available after 0s.
+2026-04-13 00:22:30  fetch: 
+2026-04-13 00:22:31  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 00:22:31  Sync complete. Next sync in 15m.
+2026-04-13 00:37:31  Network available after 0s.
+2026-04-13 00:37:32  fetch: 
+2026-04-13 00:37:32  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 00:37:32  Sync complete. Next sync in 15m.
+2026-04-13 00:52:32  Network available after 0s.
+2026-04-13 00:52:33  fetch: 
+2026-04-13 00:52:34  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 00:52:34  Sync complete. Next sync in 15m.
+2026-04-13 01:07:34  Network available after 0s.
+2026-04-13 01:07:35  fetch: 
+2026-04-13 01:07:35  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 01:07:35  Sync complete. Next sync in 15m.
+2026-04-13 01:22:36  Network available after 0s.
+2026-04-13 01:22:36  fetch: 
+2026-04-13 01:22:37  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 01:22:37  Sync complete. Next sync in 15m.
+2026-04-13 01:37:37  Network available after 0s.
+2026-04-13 01:37:38  fetch: 
+2026-04-13 01:37:39  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 01:37:39  Sync complete. Next sync in 15m.
+2026-04-13 01:52:39  Network available after 0s.
+2026-04-13 01:52:39  fetch: 
+2026-04-13 01:52:40  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 01:52:40  Sync complete. Next sync in 15m.
+2026-04-13 02:07:40  Network available after 0s.
+2026-04-13 02:07:41  fetch: 
+2026-04-13 02:07:42  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 02:07:42  Sync complete. Next sync in 15m.
+2026-04-13 02:22:42  Network available after 0s.
+2026-04-13 02:22:43  fetch: 
+2026-04-13 02:22:43  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 02:22:43  Sync complete. Next sync in 15m.
+2026-04-13 02:37:44  Network available after 0s.
+2026-04-13 02:37:44  fetch: 
+2026-04-13 02:37:45  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 02:37:45  Sync complete. Next sync in 15m.
+2026-04-13 02:52:45  Network available after 0s.
+2026-04-13 02:52:46  fetch: 
+2026-04-13 02:52:47  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 02:52:47  Sync complete. Next sync in 15m.
+2026-04-13 03:07:47  Network available after 0s.
+2026-04-13 03:07:48  fetch: 
+2026-04-13 03:07:49  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 03:07:49  Sync complete. Next sync in 15m.
+2026-04-13 03:22:49  Network available after 0s.
+2026-04-13 03:22:49  fetch: 
+2026-04-13 03:22:50  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 03:22:50  Sync complete. Next sync in 15m.
+2026-04-13 03:37:50  Network available after 0s.
+2026-04-13 03:37:51  fetch: 
+2026-04-13 03:37:52  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 03:37:52  Sync complete. Next sync in 15m.
+2026-04-13 03:52:52  Network available after 0s.
+2026-04-13 03:52:53  fetch: 
+2026-04-13 03:52:54  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 03:52:54  Sync complete. Next sync in 15m.
+2026-04-13 04:07:54  Network available after 0s.
+2026-04-13 04:07:54  fetch: 
+2026-04-13 04:07:55  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 04:07:55  Sync complete. Next sync in 15m.
+2026-04-13 04:22:55  Network available after 0s.
+2026-04-13 04:22:56  fetch: 
+2026-04-13 04:22:57  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 04:22:57  Sync complete. Next sync in 15m.
+2026-04-13 04:37:57  Network available after 0s.
+2026-04-13 04:37:58  fetch: 
+2026-04-13 04:37:58  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 04:37:58  Sync complete. Next sync in 15m.
+2026-04-13 04:52:58  Network available after 0s.
+2026-04-13 04:52:59  fetch: 
+2026-04-13 04:53:00  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 04:53:00  Sync complete. Next sync in 15m.
+2026-04-13 05:08:00  Network available after 0s.
+2026-04-13 05:08:01  fetch: 
+2026-04-13 05:08:01  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 05:08:01  Sync complete. Next sync in 15m.
+2026-04-13 05:23:01  Network available after 0s.
+2026-04-13 05:23:02  fetch: 
+2026-04-13 05:23:03  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 05:23:03  Sync complete. Next sync in 15m.
+2026-04-13 05:38:03  Network available after 0s.
+2026-04-13 05:38:04  fetch: 
+2026-04-13 05:38:05  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 05:38:05  Sync complete. Next sync in 15m.
+2026-04-13 05:53:05  Network available after 0s.
+2026-04-13 05:53:06  fetch: 
+2026-04-13 05:53:06  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 05:53:06  Sync complete. Next sync in 15m.
+2026-04-13 06:08:07  Network available after 0s.
+2026-04-13 06:08:07  fetch: 
+2026-04-13 06:08:08  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 06:08:08  Sync complete. Next sync in 15m.
+2026-04-13 06:23:08  Network available after 0s.
+2026-04-13 06:23:09  fetch: 
+2026-04-13 06:23:10  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 06:23:10  Sync complete. Next sync in 15m.
+2026-04-13 06:38:10  Network available after 0s.
+2026-04-13 06:38:11  fetch: 
+2026-04-13 06:38:12  pull:  From https://github.com/fortuneolose/EE499-FYP  * branch            main       -> FETCH_HEAD Already up to date.
+2026-04-13 06:38:12  Sync complete. Next sync in 15m.
