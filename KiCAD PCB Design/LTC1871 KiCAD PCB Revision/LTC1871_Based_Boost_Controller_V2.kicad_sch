@@ -1068,194 +1068,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -1740,144 +1552,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "R_1"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_1_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
+		(symbol "Q_NMOS_GDS_1"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1898,7 +1573,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "IRF7811"
+			(property "Value" "SI4894BDY"
 				(at 6.35 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1953,7 +1628,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GDS_0_1"
+			(symbol "Q_NMOS_GDS_1_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2120,11 +1795,11 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "Q_NMOS_GDS_1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2140,9 +1815,10 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 0)
 					(length 2.54)
-					(name "D"
+					(hide yes)
+					(name "Source"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,10 +1833,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2176,10 +1852,10 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 0)
+					(at 2.54 -5.08 0)
 					(length 2.54)
 					(hide yes)
-					(name "Drain"
+					(name "Source"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2195,10 +1871,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 0)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(hide yes)
-					(name "Drain"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2263,6 +1938,143 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_1"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_1_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2824,12 +2636,6 @@
 		(uuid "09f1630d-83e3-4657-b826-57c00b0ebe97")
 	)
 	(junction
-		(at 252.73 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c9ed6a0-66cf-46a9-a5c2-5944bda13a8f")
-	)
-	(junction
 		(at 214.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2842,16 +2648,22 @@
 		(uuid "20b35c5f-30b5-4157-b535-4561e21e9041")
 	)
 	(junction
-		(at 104.14 46.99)
+		(at 245.11 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2832d3c7-d737-4d76-9c3e-7a9bfbcb863b")
+		(uuid "25bbc257-e070-4ad8-83b6-459234669663")
 	)
 	(junction
 		(at 57.15 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2bbd769d-9ee6-4280-b3b5-be456c4b1c64")
+		(uuid "260fac29-9b81-4bd5-a506-91cd28b2c031")
+	)
+	(junction
+		(at 104.14 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2832d3c7-d737-4d76-9c3e-7a9bfbcb863b")
 	)
 	(junction
 		(at 87.63 53.34)
@@ -2860,28 +2672,10 @@
 		(uuid "2d7e63c0-96f4-49a2-ae9f-aeea2aebc02c")
 	)
 	(junction
-		(at 266.7 86.36)
+		(at 255.27 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "366a0f34-679d-4f8b-875a-49d6b95cf0e3")
-	)
-	(junction
-		(at 240.03 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fd49f57-4200-4dd9-8e76-654ce29abada")
-	)
-	(junction
-		(at 27.94 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5023c08a-98ea-45d4-baa6-05235beb715f")
-	)
-	(junction
-		(at 276.86 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5038f5ef-7d20-46a6-9edb-140f0c5b43f0")
+		(uuid "33f46fa0-7d23-419f-bdec-2d140cf113dc")
 	)
 	(junction
 		(at 182.88 105.41)
@@ -2890,10 +2684,10 @@
 		(uuid "60b20cf3-b54b-4c89-9e21-616222865508")
 	)
 	(junction
-		(at 55.88 80.01)
+		(at 68.58 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6b1c80b2-4238-48e4-baab-264e5afb75a8")
+		(uuid "81086d1e-666f-4ecd-b53b-29791dc04b2b")
 	)
 	(junction
 		(at 182.88 86.36)
@@ -2906,12 +2700,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e9e706f-1d55-4a8f-a574-37bd58e843c9")
-	)
-	(junction
-		(at 231.14 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91453f89-61bb-4bd7-8e6f-5d70210c0596")
 	)
 	(junction
 		(at 218.44 86.36)
@@ -2938,6 +2726,12 @@
 		(uuid "b24c7808-e8cb-4887-b2b5-0fa85033f557")
 	)
 	(junction
+		(at 231.14 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfa4e24f-79b0-496c-a652-f26840cb9883")
+	)
+	(junction
 		(at 208.28 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2962,12 +2756,6 @@
 		(uuid "e3393276-9f6b-4dc1-aca2-818e44138fd2")
 	)
 	(junction
-		(at 69.85 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed73ad6f-ff62-44ac-a6e9-22a9ea4bdfef")
-	)
-	(junction
 		(at 161.29 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2984,15 +2772,15 @@
 		(uuid "150c6ec3-4fe8-42de-a368-3e84080a727a")
 	)
 	(no_connect
-		(at 91.44 147.32)
+		(at 82.55 114.3)
 		(uuid "33e32eb9-d911-4008-aa32-82507c04addf")
 	)
 	(no_connect
-		(at 52.07 133.35)
+		(at 50.8 142.24)
 		(uuid "40efe416-0776-49f7-a627-9b8f67cc4c69")
 	)
 	(no_connect
-		(at 91.44 152.4)
+		(at 82.55 119.38)
 		(uuid "462e09ad-7c6f-4d32-9b50-4d14b9fe7887")
 	)
 	(no_connect
@@ -3004,24 +2792,24 @@
 		(uuid "54201247-0f5a-43f8-90df-330c1c4fd1f4")
 	)
 	(no_connect
-		(at 52.07 125.73)
+		(at 50.8 134.62)
 		(uuid "714a1343-5c11-474b-914e-290dc301308e")
 	)
 	(no_connect
-		(at 91.44 149.86)
+		(at 82.55 116.84)
 		(uuid "cf5ae2d2-98af-475a-a5bb-b2364b2f67db")
 	)
 	(no_connect
-		(at 52.07 128.27)
+		(at 50.8 137.16)
 		(uuid "ea643db8-1828-41c6-88fd-a9151a0664b3")
 	)
 	(no_connect
-		(at 52.07 130.81)
+		(at 50.8 139.7)
 		(uuid "f66df211-2e46-466c-a297-0d746b0c9158")
 	)
 	(wire
 		(pts
-			(xy 34.29 107.95) (xy 53.34 107.95)
+			(xy 34.29 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3101,6 +2889,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 27.94) (xy 57.15 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d416b19-7773-4552-b2e3-c0ba3a709757")
+	)
+	(wire
+		(pts
 			(xy 139.7 91.44) (xy 147.32 91.44)
 		)
 		(stroke
@@ -3141,7 +2939,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 123.19) (xy 34.29 123.19)
+			(xy 50.8 132.08) (xy 34.29 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +2959,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 157.48) (xy 284.48 74.93)
+			(xy 267.97 157.48) (xy 267.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3191,16 +2989,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 86.36) (xy 276.86 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c86a939-471f-424e-b9a0-69dbf8d10506")
-	)
-	(wire
-		(pts
 			(xy 161.29 102.87) (xy 173.99 102.87)
 		)
 		(stroke
@@ -3208,36 +2996,6 @@
 			(type default)
 		)
 		(uuid "20a4e198-b7b3-462d-b43b-9b545653bd39")
-	)
-	(wire
-		(pts
-			(xy 147.32 55.88) (xy 147.32 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26d0fddc-3267-4eeb-be45-262021f9de3b")
-	)
-	(wire
-		(pts
-			(xy 20.32 80.01) (xy 27.94 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279cbe14-e296-4c6b-8c73-4205daaf744c")
-	)
-	(wire
-		(pts
-			(xy 252.73 86.36) (xy 252.73 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28df1a07-84e2-4960-b8a8-429b3b97a339")
 	)
 	(wire
 		(pts
@@ -3271,6 +3029,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 35.56) (xy 46.99 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfff224-f43c-4d49-af7e-5ae7ff82f4ea")
+	)
+	(wire
+		(pts
 			(xy 83.82 53.34) (xy 87.63 53.34)
 		)
 		(stroke
@@ -3291,7 +3059,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 67.31) (xy 246.38 77.47)
+			(xy 246.38 67.31) (xy 246.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3321,7 +3089,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 142.24) (xy 81.28 134.62)
+			(xy 81.28 109.22) (xy 81.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3341,16 +3109,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 55.88 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37097ec1-1c64-4d4e-af1e-7b92b8781722")
-	)
-	(wire
-		(pts
 			(xy 82.55 30.48) (xy 82.55 27.94)
 		)
 		(stroke
@@ -3358,16 +3116,6 @@
 			(type default)
 		)
 		(uuid "371d221a-1b3a-4106-95d3-9fbe43c25e0c")
-	)
-	(wire
-		(pts
-			(xy 82.55 27.94) (xy 69.85 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375a6681-02d9-4844-9c76-78ef3b2b7c8a")
 	)
 	(wire
 		(pts
@@ -3411,16 +3159,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 97.79) (xy 20.32 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d4863b7-857c-475e-bf59-120d197bcdc5")
-	)
-	(wire
-		(pts
 			(xy 76.2 38.1) (xy 82.55 38.1)
 		)
 		(stroke
@@ -3448,16 +3186,6 @@
 			(type default)
 		)
 		(uuid "477fd4f7-eea0-48d4-a3d4-13a32ad99c4d")
-	)
-	(wire
-		(pts
-			(xy 76.2 93.98) (xy 83.82 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "493f015a-e40f-4f4b-9a45-808b8069bf82")
 	)
 	(wire
 		(pts
@@ -3501,26 +3229,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 105.41) (xy 276.86 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4def2887-a282-4617-98db-7fc9b7560eea")
-	)
-	(wire
-		(pts
-			(xy 69.85 27.94) (xy 57.15 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e1dd25d-8c8a-4e05-859f-0431da7b9d63")
-	)
-	(wire
-		(pts
 			(xy 64.77 92.71) (xy 66.04 92.71)
 		)
 		(stroke
@@ -3531,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 142.24) (xy 81.28 142.24)
+			(xy 82.55 109.22) (xy 81.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3561,23 +3269,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 144.78) (xy 16.51 144.78)
+			(xy 82.55 111.76) (xy 22.86 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "552e21aa-3ddd-4cad-983b-e98ed7ae3623")
-	)
-	(wire
-		(pts
-			(xy 276.86 77.47) (xy 276.86 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58497c44-a85d-42be-86ee-3178b25691c8")
 	)
 	(wire
 		(pts
@@ -3621,26 +3319,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 80.01) (xy 69.85 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636069ca-628a-4266-b6fe-c4a030905fe3")
-	)
-	(wire
-		(pts
-			(xy 231.14 86.36) (xy 240.03 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "642dfc5b-6f53-45f6-8a3d-f3f238b30423")
-	)
-	(wire
-		(pts
 			(xy 80.01 82.55) (xy 83.82 82.55)
 		)
 		(stroke
@@ -3651,7 +3329,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 123.19) (xy 34.29 107.95)
+			(xy 34.29 132.08) (xy 34.29 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3691,7 +3369,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 157.48) (xy 284.48 157.48)
+			(xy 52.07 157.48) (xy 267.97 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3701,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 86.36) (xy 276.86 97.79)
+			(xy 255.27 86.36) (xy 255.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3711,7 +3389,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 27.94) (xy 69.85 35.56)
+			(xy 68.58 27.94) (xy 68.58 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3731,6 +3409,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 105.41) (xy 255.27 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2aff6a-5e6a-4ce3-b190-c3587741563e")
+	)
+	(wire
+		(pts
 			(xy 78.74 83.82) (xy 78.74 88.9)
 		)
 		(stroke
@@ -3741,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 21.59) (xy 16.51 144.78)
+			(xy 22.86 21.59) (xy 22.86 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3821,26 +3509,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 88.9) (xy 55.88 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be2d786-064c-492e-a93e-e6c4b77fdc99")
-	)
-	(wire
-		(pts
-			(xy 240.03 86.36) (xy 252.73 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d3b3e2d-d337-40ad-9c41-f83c7b6914aa")
-	)
-	(wire
-		(pts
 			(xy 82.55 30.48) (xy 82.55 33.02)
 		)
 		(stroke
@@ -3861,13 +3529,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 86.36) (xy 240.03 115.57)
+			(xy 46.99 27.94) (xy 57.15 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82762101-fd9b-45d9-85ee-584c3ffb244d")
+		(uuid "804d9e60-ff9a-473d-b361-43cf100c5eb3")
 	)
 	(wire
 		(pts
@@ -3881,7 +3549,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 86.36) (xy 266.7 86.36)
+			(xy 231.14 86.36) (xy 245.11 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3901,7 +3569,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 43.18) (xy 69.85 52.07)
+			(xy 68.58 43.18) (xy 68.58 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4041,13 +3709,13 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 123.19) (xy 240.03 132.08)
+			(xy 147.32 55.88) (xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9de6a3ba-a32c-4098-803c-351886aa7ddd")
+		(uuid "9e610e1f-684a-4469-9f61-6fabf28c02fc")
 	)
 	(wire
 		(pts
@@ -4058,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "a1a44faf-13fb-4d02-a8a6-7e5ddb07c2f3")
+	)
+	(wire
+		(pts
+			(xy 255.27 76.2) (xy 255.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2329324-78df-4cd2-84de-575d42f9d017")
 	)
 	(wire
 		(pts
@@ -4081,7 +3759,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 80.01) (xy 55.88 80.01)
+			(xy 45.72 80.01) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4091,13 +3769,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 102.87) (xy 252.73 116.84)
+			(xy 68.58 27.94) (xy 82.55 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "acf6d875-a588-44b6-9f7f-794dc0922824")
+		(uuid "abea0c42-7c0c-43d4-ba37-573d901a5eef")
 	)
 	(wire
 		(pts
@@ -4121,6 +3799,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 43.18) (xy 46.99 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b420f022-5dcd-4bc6-b3a9-b18f74f361ef")
+	)
+	(wire
+		(pts
 			(xy 231.14 104.14) (xy 231.14 111.76)
 		)
 		(stroke
@@ -4141,6 +3829,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 86.36) (xy 255.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fecfd1-be13-4e38-b546-aff4f01edb9d")
+	)
+	(wire
+		(pts
 			(xy 129.54 41.91) (xy 146.05 41.91)
 		)
 		(stroke
@@ -4151,17 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 27.94) (xy 43.18 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba6bce62-431d-4b2c-8fa0-36d419c926e9")
-	)
-	(wire
-		(pts
-			(xy 260.35 74.93) (xy 284.48 74.93)
+			(xy 260.35 74.93) (xy 267.97 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +3919,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 86.36) (xy 266.7 93.98)
+			(xy 245.11 86.36) (xy 245.11 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4331,16 +4019,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 43.18) (xy 43.18 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d27f8524-75c9-4441-9d6f-1b2a3cfc5fbe")
-	)
-	(wire
-		(pts
 			(xy 124.46 34.29) (xy 124.46 30.48)
 		)
 		(stroke
@@ -4351,7 +4029,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 101.6) (xy 266.7 110.49)
+			(xy 245.11 99.06) (xy 245.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4391,7 +4069,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 107.95) (xy 53.34 115.57)
+			(xy 53.34 115.57) (xy 53.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4418,16 +4096,6 @@
 			(type default)
 		)
 		(uuid "de327833-8578-45d3-9920-93e974381f71")
-	)
-	(wire
-		(pts
-			(xy 43.18 27.94) (xy 43.18 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea3f501-ce50-432a-b700-189f0194664d")
 	)
 	(wire
 		(pts
@@ -4471,6 +4139,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 93.98) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1fe5b15-113c-49f2-b123-7e3d0e0ed45e")
+	)
+	(wire
+		(pts
 			(xy 214.63 123.19) (xy 214.63 130.81)
 		)
 		(stroke
@@ -4501,16 +4179,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 90.17) (xy 20.32 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e52735e6-dbc0-4168-ad1f-afbab3f393fa")
-	)
-	(wire
-		(pts
 			(xy 82.55 27.94) (xy 161.29 27.94)
 		)
 		(stroke
@@ -4531,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 77.47) (xy 276.86 77.47)
+			(xy 246.38 76.2) (xy 255.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4561,16 +4229,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 80.01) (xy 62.23 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1dbb612-bb0f-4777-9743-fbd2d3e4d2da")
-	)
-	(wire
-		(pts
 			(xy 66.04 92.71) (xy 66.04 91.44)
 		)
 		(stroke
@@ -4581,7 +4239,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 21.59) (xy 83.82 21.59)
+			(xy 22.86 21.59) (xy 83.82 21.59)
 		)
 		(stroke
 			(width 0)
@@ -4618,88 +4276,6 @@
 			(type default)
 		)
 		(uuid "ffa6ba6a-26a2-4924-9aa8-e963ca93ed26")
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 43.18 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0114de4f-402a-4510-acdf-22187c0cfb7e")
-		(property "Reference" "Cin1"
-			(at 46.99 37.2109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100µ"
-			(at 46.99 39.7509 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 44.1452 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 43.18 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "541f40d5-41ab-4ad6-a419-c358ddfad0b8")
-		)
-		(pin "2"
-			(uuid "73a77a6b-baef-483a-8099-df161a918ac4")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "Cin1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4775,7 +4351,7 @@
 			(uuid "2c84c334-bace-4db0-8a8c-4ee04eaa8054")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a4")
 					(unit 1)
@@ -4853,101 +4429,9 @@
 			(uuid "5fb6a535-c667-4eed-92e5-0790ca5b58b5")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 252.73 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0434d30e-f353-4689-acaa-d286eba77a32")
-		(property "Reference" "C5"
-			(at 253.492 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100µ"
-			(at 253.492 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 253.6952 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 252.73 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 252.73 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2c342d27-2b71-4d22-8518-5f9d1069f446")
-		)
-		(pin "1"
-			(uuid "46bd7ef9-e2ae-4532-baf1-6decb31de768")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5023,7 +4507,7 @@
 			(uuid "45578edd-344b-4173-ab6a-cb4bbe820bc8")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR011")
 					(unit 1)
@@ -5101,7 +4585,7 @@
 			(uuid "40139bef-41bb-4ea3-a445-7805215e8b2d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR026")
 					(unit 1)
@@ -5183,7 +4667,7 @@
 			(uuid "dff9159b-520c-43b9-8602-606f43cd3454")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "Q2")
 					(unit 1)
@@ -5260,7 +4744,7 @@
 			(uuid "5e82c167-011b-46e9-b561-2dfa28e177d7")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR012")
 					(unit 1)
@@ -5342,7 +4826,7 @@
 			(uuid "0857e78e-9704-4f62-ae91-9cb9d15890c1")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J2")
 					(unit 1)
@@ -5424,7 +4908,7 @@
 			(uuid "959b24b2-cdd8-458c-a84a-adfcda416dcb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a1")
 					(unit 1)
@@ -5434,89 +4918,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 55.88 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e3ebe18-803d-4159-825d-b452647b3b5c")
-		(property "Reference" "C1"
-			(at 59.69 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 59.69 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 56.8452 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 55.88 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f0647450-45e7-4088-a0d0-adce1d4cf17c")
-		)
-		(pin "1"
-			(uuid "01060db5-8ea8-465b-b353-3755bf7e9d83")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 69.85 39.37 0)
+		(at 68.58 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5527,7 +4929,7 @@
 		(fields_autoplaced yes)
 		(uuid "1fdbf74c-13bd-471c-8cb0-68e759f86555")
 		(property "Reference" "C7"
-			(at 73.66 38.0999 0)
+			(at 72.39 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5538,7 +4940,7 @@
 			)
 		)
 		(property "Value" "22µ"
-			(at 73.66 40.6399 0)
+			(at 72.39 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5549,7 +4951,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 70.8152 43.18 0)
+			(at 69.5452 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5560,7 +4962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 39.37 0)
+			(at 68.58 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +4973,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 69.85 39.37 0)
+			(at 68.58 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,7 +4990,7 @@
 			(uuid "d5829736-5385-4bd0-ae5e-ec5c368d9989")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C7")
 					(unit 1)
@@ -5598,7 +5000,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 171.45 86.36 0)
+		(at 171.45 86.36 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5609,7 +5011,7 @@
 		(fields_autoplaced yes)
 		(uuid "2cb20cc7-061f-4ea6-912b-af07fff13687")
 		(property "Reference" "D1"
-			(at 171.1325 80.01 0)
+			(at 171.7675 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5619,7 +5021,7 @@
 			)
 		)
 		(property "Value" "MBR735"
-			(at 171.1325 82.55 0)
+			(at 171.7675 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5628,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 171.45 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5668,7 +5070,7 @@
 			(uuid "629e9092-9814-4462-a5ac-6607426e6161")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "D1")
 					(unit 1)
@@ -5750,7 +5152,7 @@
 			(uuid "165262df-1c26-4db1-ba78-fc521692d2c9")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J_VIN1")
 					(unit 1)
@@ -5829,7 +5231,7 @@
 			(uuid "f2176c85-7638-4e9f-be5c-5e6fba6723d3")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C4")
 					(unit 1)
@@ -5907,7 +5309,7 @@
 			(uuid "6d977d55-d1e8-4d38-bc7c-7336154403ef")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR027")
 					(unit 1)
@@ -5917,7 +5319,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 266.7 97.79 0)
+		(at 245.11 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5927,7 +5329,7 @@
 		(dnp no)
 		(uuid "3ad04e3d-3886-4901-ae05-ab276297a1a5")
 		(property "Reference" "C1b1"
-			(at 267.97 94.996 0)
+			(at 246.38 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5938,7 +5340,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 267.716 100.33 0)
+			(at 246.126 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5949,7 +5351,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 267.6652 101.6 0)
+			(at 246.0752 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5960,7 +5362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 97.79 0)
+			(at 245.11 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5971,7 +5373,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 266.7 97.79 0)
+			(at 245.11 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5988,7 +5390,7 @@
 			(uuid "e1dfc51c-cf6a-4bf6-bb5b-3876a2eec4d2")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1b1")
 					(unit 1)
@@ -6065,7 +5467,7 @@
 			(uuid "4e6d0824-3284-4bc5-913d-d1974c7352a7")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#FLG02")
 					(unit 1)
@@ -6143,9 +5545,87 @@
 			(uuid "1c41836d-7bfd-4762-b2d2-bc00ca1956ff")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bb1ea00-7022-4798-9f86-53ea5504c53f")
+		(property "Reference" "#PWR03"
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f85928f-4482-4800-855e-dce5cf3f855d")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6221,9 +5701,109 @@
 			(uuid "fc602916-018e-4467-9653-3648daf52c51")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_NMOS_GDS_1")
+		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(at 158.75 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d57ca4f-4f14-4e4e-9cfb-a6fc8c7596cf")
+		(property "Reference" "Q1"
+			(at 161.798 92.202 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SI4894BDY"
+			(at 156.464 102.108 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 163.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 158.75 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "c0d7eada-06b1-47ea-a75e-b6dc33264d1b")
+		)
+		(pin "1"
+			(uuid "d757b97e-9aa5-420c-b6f7-315f99bdaed6")
+		)
+		(pin "3"
+			(uuid "6a87d81a-a17c-44e2-915b-14097698d986")
+		)
+		(pin "4"
+			(uuid "119118bb-2ae2-426d-8b90-db8afba4c053")
+		)
+		(pin "7"
+			(uuid "34ac7992-d273-4089-80b2-20ebd711d0e9")
+		)
+		(pin "8"
+			(uuid "701accff-c34d-4d86-97ed-3718d98f8f8f")
+		)
+		(pin "2"
+			(uuid "feadb4cb-723a-4a53-b88e-7ecad525d04c")
+		)
+		(pin "6"
+			(uuid "b132f937-a239-4fc3-9720-e9dcfeab8d6d")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6298,7 +5878,7 @@
 			(uuid "b6a853da-1831-4adf-b41f-6aae7b211633")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR01")
 					(unit 1)
@@ -6379,91 +5959,9 @@
 			(uuid "09635ed8-cc55-474d-9159-08ef745b87ef")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 240.03 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6307df66-3af5-442f-be61-110fb09c3dd6")
-		(property "Reference" "C1a8"
-			(at 243.84 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22µ"
-			(at 243.84 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 240.9952 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 240.03 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf7ce6a0-df98-4327-9885-72e6924345cb")
-		)
-		(pin "2"
-			(uuid "724a156a-4c83-43da-8ba5-c1afc239f72a")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "C1a8")
 					(unit 1)
 				)
 			)
@@ -6539,7 +6037,7 @@
 			(uuid "108250fa-181d-46ea-888b-22659d6ef22b")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR022")
 					(unit 1)
@@ -6621,7 +6119,7 @@
 			(uuid "56282f7c-236d-4a36-949c-2323652171e4")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a3")
 					(unit 1)
@@ -6703,187 +6201,9 @@
 			(uuid "315be997-e119-4a0f-a475-4d5a7b0d5aa8")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 240.03 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e49be39-ec84-455e-918d-d5aefbcff503")
-		(property "Reference" "#PWR024"
-			(at 240.03 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afe142b0-3efd-41a3-ac48-50e729668402")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 158.75 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6efe5845-5027-45f5-bab5-c766be072610")
-		(property "Reference" "Q1"
-			(at 165.1 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI4894BDY"
-			(at 165.1 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 163.83 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 158.75 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40f5abb8-3778-414c-9fc9-42da6a843b57")
-		)
-		(pin "2"
-			(uuid "ef2d10e6-f9e9-4c7f-ba21-eda40dfe597f")
-		)
-		(pin "3"
-			(uuid "2c26cbd1-3a0f-43b3-b11c-2db4370d9be5")
-		)
-		(pin "5"
-			(uuid "90d00e5b-566e-4f62-a057-447d897b9b74")
-		)
-		(pin "4"
-			(uuid "6f3dcf52-1180-4908-985c-eb4b3e214c8a")
-		)
-		(pin "6"
-			(uuid "7b4c1678-dba7-4e98-a38e-b77c49ca3512")
-		)
-		(pin "8"
-			(uuid "995d1d9f-73cb-4e32-9868-c2d4d660f91f")
-		)
-		(pin "7"
-			(uuid "164521dc-5fc0-449f-93f3-c0c7a30a4e34")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6959,7 +6279,7 @@
 			(uuid "e3b95e1d-1156-4e79-8c35-b73b7ab1d98b")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR017")
 					(unit 1)
@@ -7037,7 +6357,7 @@
 			(uuid "6bbe4187-a4d2-46db-b65b-2e45b0be2dc2")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR023")
 					(unit 1)
@@ -7119,7 +6439,7 @@
 			(uuid "4c664902-e01f-4a04-a19e-fce2a903656a")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R5")
 					(unit 1)
@@ -7197,7 +6517,7 @@
 			(uuid "e72e1589-da9e-4792-8294-3f35d40ab3eb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR029")
 					(unit 1)
@@ -7275,7 +6595,7 @@
 			(uuid "f3c8b0c2-f3cc-49c3-8137-6e92f19ba8cd")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR05")
 					(unit 1)
@@ -7353,7 +6673,7 @@
 			(uuid "77732094-2f2b-40ce-9aec-3e2c1ad62dac")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR02")
 					(unit 1)
@@ -7435,164 +6755,9 @@
 			(uuid "075e62e5-ed9b-47f1-a82d-2cd2ca14b472")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 55.88 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89b54c40-1a8f-4cbc-b372-3ad98f85129a")
-		(property "Reference" "#PWR03"
-			(at 55.88 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 55.626 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05965d15-aa55-4cad-85a8-37862d9c591a")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 20.32 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c7dab73-b687-41c6-aff9-1f2a0d5f3310")
-		(property "Reference" "#PWR031"
-			(at 20.32 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 20.32 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 20.32 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97476738-77c7-4c0d-8eb0-3569445c8ea4")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7672,7 +6837,7 @@
 			(uuid "8934e513-efe4-4788-8860-c600a86564e4")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a2")
 					(unit 1)
@@ -7682,7 +6847,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 110.49 0)
+		(at 255.27 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7693,7 +6858,7 @@
 		(fields_autoplaced yes)
 		(uuid "904419ce-c980-4df6-bb67-a47fb206e573")
 		(property "Reference" "#PWR06"
-			(at 276.86 116.84 0)
+			(at 255.27 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +6869,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 115.57 0)
+			(at 255.27 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7714,7 +6879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 110.49 0)
+			(at 255.27 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +6890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 110.49 0)
+			(at 255.27 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7736,7 +6901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 110.49 0)
+			(at 255.27 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7750,7 +6915,7 @@
 			(uuid "cf8658be-d0c4-4b3e-90dc-ba657aef49cb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR06")
 					(unit 1)
@@ -7832,7 +6997,7 @@
 			(uuid "803570ef-60e4-480c-a7f7-f4067f4299ee")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a7")
 					(unit 1)
@@ -7914,7 +7079,7 @@
 			(uuid "bbe10416-fc44-438e-9c91-8305ac441894")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a5")
 					(unit 1)
@@ -7991,7 +7156,7 @@
 			(uuid "a3a0a244-f0d0-496e-9a30-15a4cee3b59d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#FLG01")
 					(unit 1)
@@ -8069,7 +7234,7 @@
 			(uuid "14c70cd9-7566-4f23-9710-aa52f285b698")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR019")
 					(unit 1)
@@ -8151,7 +7316,7 @@
 			(uuid "df0b315d-0772-4781-b1f8-96cbd5fc98c3")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R2")
 					(unit 1)
@@ -8242,7 +7407,7 @@
 			(uuid "108779a8-7c93-4819-8355-62934c130357")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J5")
 					(unit 1)
@@ -8252,7 +7417,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 96.52 147.32 0)
+		(at 87.63 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8260,10 +7425,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "b1759445-1837-494f-82a1-25bfa0c7b15c")
-		(property "Reference" "J4"
-			(at 99.06 147.3199 0)
+		(property "Reference" "J3"
+			(at 89.916 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8274,7 +7438,7 @@
 			)
 		)
 		(property "Value" "Proto_1"
-			(at 99.06 148.5899 0)
+			(at 90.17 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8285,7 +7449,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 96.52 147.32 0)
+			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +7460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 147.32 0)
+			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +7471,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 147.32 0)
+			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,9 +7497,9 @@
 			(uuid "2891431a-9919-4289-86bc-8004fd22685e")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -8343,7 +7507,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 276.86 101.6 0)
+		(at 255.27 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8353,7 +7517,7 @@
 		(dnp no)
 		(uuid "b32cbccb-f0b7-4e0b-91de-831cc011adee")
 		(property "Reference" "C1b2"
-			(at 278.13 98.552 0)
+			(at 253.746 98.552 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8364,7 +7528,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 278.13 104.902 0)
+			(at 254 104.902 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8375,7 +7539,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 277.8252 105.41 0)
+			(at 256.2352 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8386,7 +7550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 101.6 0)
+			(at 255.27 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,7 +7561,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 276.86 101.6 0)
+			(at 255.27 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +7578,7 @@
 			(uuid "9a926c5a-7e5f-454e-8e4d-722fba2b4a87")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1b2")
 					(unit 1)
@@ -8492,7 +7656,7 @@
 			(uuid "6ea8f92e-c8ad-45b9-8eaf-4c4db51ed442")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR014")
 					(unit 1)
@@ -8570,7 +7734,7 @@
 			(uuid "6146c15e-a8a4-4865-b27a-d7d07592cdfb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR030")
 					(unit 1)
@@ -8580,7 +7744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 53.34 115.57 0)
+		(at 53.34 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8591,7 +7755,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcd9b394-1fe2-43ee-939d-5c2e3fd1627a")
 		(property "Reference" "#PWR028"
-			(at 53.34 121.92 0)
+			(at 53.34 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,7 +7766,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 120.65 0)
+			(at 53.34 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8612,7 +7776,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Joint-Tech_C5080WR-04P_1x04_P5.08mm_Vertical"
-			(at 53.34 115.57 0)
+			(at 53.34 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8623,7 +7787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 115.57 0)
+			(at 53.34 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8634,7 +7798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 115.57 0)
+			(at 53.34 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +7812,7 @@
 			(uuid "61bb3e60-ac60-4056-869e-766c82eb2c18")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR028")
 					(unit 1)
@@ -8658,7 +7822,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 57.15 128.27 0)
+		(at 55.88 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8666,10 +7830,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "bedc7093-b4f6-43f2-a2a9-543e43de90f8")
-		(property "Reference" "J3"
-			(at 59.69 128.2699 0)
+		(property "Reference" "J4"
+			(at 58.42 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8680,7 +7843,7 @@
 			)
 		)
 		(property "Value" "Proto_GND"
-			(at 59.69 129.5399 0)
+			(at 58.42 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8691,7 +7854,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 57.15 128.27 0)
+			(at 55.88 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8702,7 +7865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 128.27 0)
+			(at 55.88 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8713,7 +7876,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 57.15 128.27 0)
+			(at 55.88 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8739,9 +7902,9 @@
 			(uuid "509d3e13-656e-45d1-b306-31aefcda8dea")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8816,87 +7979,9 @@
 			(uuid "b2ab7191-8f99-47a4-b4d9-4532c2b92145")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5e08694-bf87-41da-ba83-19be51660429")
-		(property "Reference" "#PWR013"
-			(at 43.18 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c64ad5e5-5a79-4008-82a9-d1845d265b50")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8976,87 +8061,9 @@
 			(uuid "a6afcc0d-1a37-4434-be41-7101bb47a65f")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbb03fed-7ce0-4f66-81e9-bbe78fb8f7f1")
-		(property "Reference" "#PWR07"
-			(at 252.73 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6c5aa079-6208-478b-aa1a-f9e437365efb")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9072,10 +8079,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cec8f2de-8d8d-4356-8b08-04c26af011d4")
 		(property "Reference" "C3"
-			(at 49.53 82.5499 0)
+			(at 44.45 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9086,7 +8092,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 49.53 85.0899 0)
+			(at 43.942 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9136,7 +8142,7 @@
 			(uuid "2fa91aa4-8feb-4ede-ad58-e0f6ce35b84d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C3")
 					(unit 1)
@@ -9242,7 +8248,7 @@
 			(uuid "39a633da-c76e-452f-8b5e-846a2b5eb16f")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "U1")
 					(unit 1)
@@ -9251,8 +8257,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 266.7 110.49 0)
+		(lib_id "Device:C_Polarized")
+		(at 46.99 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9261,31 +8267,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd4decad-55ad-4b58-931a-85256a39a952")
-		(property "Reference" "#PWR08"
-			(at 266.7 116.84 0)
-			(hide yes)
+		(uuid "d7096171-5b2a-4c7d-872e-ddee10052be0")
+		(property "Reference" "C1"
+			(at 50.8 37.2109 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 266.7 115.57 0)
-			(hide yes)
+		(property "Value" "100µ"
+			(at 50.8 39.7509 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 266.7 110.49 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 47.9552 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9296,7 +8302,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 110.49 0)
+			(at 46.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 46.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41b91ff2-a150-4b81-9ac9-cc716032aa56")
+		)
+		(pin "2"
+			(uuid "812121da-4c86-4108-a3af-6ffadf9aef89")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd4decad-55ad-4b58-931a-85256a39a952")
+		(property "Reference" "#PWR08"
+			(at 245.11 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9307,7 +8395,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 110.49 0)
+			(at 245.11 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9321,7 +8409,7 @@
 			(uuid "1ece8358-6888-4412-a780-e1186735b21a")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR08")
 					(unit 1)
@@ -9404,7 +8492,7 @@
 			(uuid "f73f1993-f07e-44f8-8c63-e4a3dfcdb1be")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R6")
 					(unit 1)
@@ -9483,7 +8571,7 @@
 			(uuid "d7e038f9-3a68-46f0-8703-5adff8d8fb6a")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R1")
 					(unit 1)
@@ -9493,7 +8581,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 52.07 0)
+		(at 68.58 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9504,7 +8592,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3855f64-6016-464f-91cc-78cb54d880a8")
 		(property "Reference" "#PWR015"
-			(at 69.85 58.42 0)
+			(at 68.58 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9515,7 +8603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 57.15 0)
+			(at 68.58 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9525,7 +8613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 52.07 0)
+			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9536,7 +8624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 52.07 0)
+			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9547,7 +8635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 52.07 0)
+			(at 68.58 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9561,111 +8649,9 @@
 			(uuid "3230083b-8539-4901-b693-cf36fd2f54e8")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 66.04 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4d55780-26c6-4fb1-9524-bf2ac7e123b8")
-		(property "Reference" "D2"
-			(at 66.04 73.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 66.04 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 66.04 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 66.04 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 66.04 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 66.04 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "67c918eb-a305-43ae-a7a6-46cb53ae1602")
-		)
-		(pin "2"
-			(uuid "7e9bae07-b34c-4cda-802d-9fc027174c34")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9745,91 +8731,9 @@
 			(uuid "c28964a5-1d80-4706-a297-ea593e692416")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 20.32 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee1aa622-6596-4ec2-ba9a-498329212a96")
-		(property "Reference" "C8"
-			(at 24.13 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220n"
-			(at 24.13 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 21.2852 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 20.32 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "fb761a17-4d26-4e10-836e-63935dbde644")
-		)
-		(pin "1"
-			(uuid "ab8b253e-1bd1-45e7-930c-13004dd628d4")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9905,7 +8809,7 @@
 			(uuid "c414cd07-611e-44db-94fa-1d0807caa2f1")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR025")
 					(unit 1)
@@ -9985,7 +8889,7 @@
 			(uuid "f3ac41dd-1b39-457c-ab44-97337751bd13")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R4")
 					(unit 1)
@@ -10063,7 +8967,7 @@
 			(uuid "a0dd3a3f-4a11-4927-b5d5-daeb24d9f729")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR021")
 					(unit 1)
@@ -10140,7 +9044,7 @@
 			(uuid "4d48e40f-687e-48c0-844c-28fa81473bcc")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR04")
 					(unit 1)
@@ -10218,7 +9122,7 @@
 			(uuid "d3092632-cea1-42ef-8754-65ff3805899b")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller"
+			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR09")
 					(unit 1)
