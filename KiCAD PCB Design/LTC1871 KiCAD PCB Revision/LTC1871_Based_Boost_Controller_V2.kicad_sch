@@ -2678,6 +2678,12 @@
 		(uuid "33f46fa0-7d23-419f-bdec-2d140cf113dc")
 	)
 	(junction
+		(at 147.32 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ab47818-0880-4bd3-b45b-a072cfb14910")
+	)
+	(junction
 		(at 182.88 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2726,6 +2732,12 @@
 		(uuid "b24c7808-e8cb-4887-b2b5-0fa85033f557")
 	)
 	(junction
+		(at 264.16 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdab641b-65b6-4346-b10c-676a1ea88840")
+	)
+	(junction
 		(at 231.14 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2760,12 +2772,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efa53dac-6be5-4390-8280-f2fc5cdd527a")
-	)
-	(junction
-		(at 82.55 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f830ad1f-6bb8-4f83-8686-bc24e2e05975")
 	)
 	(no_connect
 		(at 52.07 160.02)
@@ -2876,6 +2882,16 @@
 			(type default)
 		)
 		(uuid "0b5f707b-5a4d-4b01-8cc3-068a2faa1ac6")
+	)
+	(wire
+		(pts
+			(xy 264.16 86.36) (xy 264.16 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d27d4cb-254c-4d32-95e9-9d237b084464")
 	)
 	(wire
 		(pts
@@ -2999,6 +3015,26 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 81.28) (xy 264.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29795501-21d9-4cd8-90a3-12fe4d4740eb")
+	)
+	(wire
+		(pts
+			(xy 161.29 66.04) (xy 161.29 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b06c3ff-c054-4ee2-ad6f-16f7f61a1395")
+	)
+	(wire
+		(pts
 			(xy 83.82 43.18) (xy 78.74 43.18)
 		)
 		(stroke
@@ -3059,7 +3095,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 67.31) (xy 246.38 76.2)
+			(xy 246.38 67.31) (xy 246.38 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3156,6 +3192,16 @@
 			(type default)
 		)
 		(uuid "3b136ae1-c93f-4cbb-9b85-f7381aae4ddf")
+	)
+	(wire
+		(pts
+			(xy 147.32 66.04) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dacbee4-1f56-4a09-897e-d2d3132e77d1")
 	)
 	(wire
 		(pts
@@ -3289,13 +3335,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 73.66) (xy 161.29 27.94)
+			(xy 264.16 106.68) (xy 264.16 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b71cabc-e85c-4f7e-8fc9-31d6caac1156")
+		(uuid "5b997a04-a753-4759-b2ba-d032ff28ab3a")
 	)
 	(wire
 		(pts
@@ -3709,7 +3755,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 55.88) (xy 147.32 88.9)
+			(xy 147.32 55.88) (xy 147.32 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3729,13 +3775,23 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 76.2) (xy 255.27 86.36)
+			(xy 132.08 30.48) (xy 133.35 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2329324-78df-4cd2-84de-575d42f9d017")
+		(uuid "a5485bd8-c18a-465b-bfec-8c6560f6eb16")
+	)
+	(wire
+		(pts
+			(xy 255.27 86.36) (xy 264.16 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a44794-2135-4352-8ef4-3ab0933d3bad")
 	)
 	(wire
 		(pts
@@ -3929,6 +3985,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 66.04) (xy 161.29 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4634fff-9572-4a5d-82d1-113b665ce973")
+	)
+	(wire
+		(pts
 			(xy 161.29 81.28) (xy 161.29 86.36)
 		)
 		(stroke
@@ -3976,16 +4042,6 @@
 			(type default)
 		)
 		(uuid "c826c773-6370-4145-8336-9cc4398b76a6")
-	)
-	(wire
-		(pts
-			(xy 124.46 30.48) (xy 133.35 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c913611f-5aea-471f-9bcc-dd4a7b8ab04a")
 	)
 	(wire
 		(pts
@@ -4179,13 +4235,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 27.94) (xy 161.29 27.94)
+			(xy 246.38 81.28) (xy 264.16 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea849cca-881c-45a0-b562-65f629df324c")
+		(uuid "ea1d8153-18bd-4c20-9fea-8d66664221b9")
 	)
 	(wire
 		(pts
@@ -4196,16 +4252,6 @@
 			(type default)
 		)
 		(uuid "eb52d55f-089e-47fb-a52f-4e90e9e4613f")
-	)
-	(wire
-		(pts
-			(xy 246.38 76.2) (xy 255.27 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef2655c4-80e6-4423-8658-1c43e5cba151")
 	)
 	(wire
 		(pts
@@ -5241,6 +5287,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 264.16 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "367c859b-ca9b-4a42-92ce-24873fabdc99")
+		(property "Reference" "#PWR07"
+			(at 264.16 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a879acb-1f31-4d08-8935-ad8be675ab94")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 133.35 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -5548,6 +5672,86 @@
 			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40b363a5-35da-4b5a-9d34-8e8876d1a08f")
+		(property "Reference" "R7"
+			(at 128.27 24.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 128.27 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 128.27 32.258 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8db068d0-cdff-44ea-bb06-70a3d4b12a4c")
+		)
+		(pin "2"
+			(uuid "2478589b-b0fe-4097-a63d-2a2e6e1198a2")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7082,6 +7286,87 @@
 			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 264.16 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9694caa8-2cac-4084-a29b-d8b639f0f262")
+		(property "Reference" "C5"
+			(at 264.668 100.076 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µ"
+			(at 262.382 105.664 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+			(at 265.1252 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 264.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42809211-f6ed-4e16-ad80-ff4987e5822b")
+		)
+		(pin "1"
+			(uuid "a83c25d6-9f87-47b6-b279-cf94e5eee6e6")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "C5")
 					(unit 1)
 				)
 			)
