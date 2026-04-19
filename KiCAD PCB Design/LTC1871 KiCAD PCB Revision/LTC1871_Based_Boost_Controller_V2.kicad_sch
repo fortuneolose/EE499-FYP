@@ -2714,16 +2714,16 @@
 		(uuid "95587452-15a1-489f-be46-5fd95523c308")
 	)
 	(junction
-		(at 146.05 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9fc2dacb-9879-4286-bace-a200764d405e")
-	)
-	(junction
 		(at 82.55 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4ab3630-477f-41a6-adc6-a9d226b471a8")
+	)
+	(junction
+		(at 146.05 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac480bfa-d7ad-4f3a-832f-9c809f67f1c4")
 	)
 	(junction
 		(at 45.72 80.01)
@@ -2965,7 +2965,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 55.88) (xy 147.32 55.88)
+			(xy 110.49 55.88) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3115,6 +3115,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 52.07) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ea790c-da6c-43ac-91a0-52555691777f")
+	)
+	(wire
+		(pts
 			(xy 76.2 33.02) (xy 76.2 38.1)
 		)
 		(stroke
@@ -3232,16 +3242,6 @@
 			(type default)
 		)
 		(uuid "477fd4f7-eea0-48d4-a3d4-13a32ad99c4d")
-	)
-	(wire
-		(pts
-			(xy 110.49 55.88) (xy 146.05 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4975ebec-a8bc-406b-9249-2e280104fc7b")
 	)
 	(wire
 		(pts
@@ -3502,6 +3502,16 @@
 			(type default)
 		)
 		(uuid "7450ef0c-c023-4014-bcc9-80878fc092db")
+	)
+	(wire
+		(pts
+			(xy 146.05 55.88) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74870313-89b5-4e4d-9d0d-3c237b24ded9")
 	)
 	(wire
 		(pts
@@ -4105,16 +4115,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 41.91) (xy 146.05 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d740b163-f898-48fc-a41d-360501026ae6")
-	)
-	(wire
-		(pts
 			(xy 142.24 96.52) (xy 142.24 100.33)
 		)
 		(stroke
@@ -4312,6 +4312,16 @@
 			(type default)
 		)
 		(uuid "fc3bb9e3-20e8-4081-ac99-99556572d54c")
+	)
+	(wire
+		(pts
+			(xy 146.05 41.91) (xy 146.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febd6a16-506a-4f12-8da5-a1be10236938")
 	)
 	(wire
 		(pts
@@ -6646,6 +6656,87 @@
 			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 146.05 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b7a8738-108d-491d-ab2c-293ec8cdb36b")
+		(property "Reference" "D2"
+			(at 148.59 46.6724 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5818"
+			(at 148.59 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 146.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "270eade6-9ebe-4994-8426-5a36b79e9403")
+		)
+		(pin "1"
+			(uuid "5f4c9d31-dd7c-49df-980a-f1267ca33b51")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "D2")
 					(unit 1)
 				)
 			)
