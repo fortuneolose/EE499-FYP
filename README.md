@@ -21,12 +21,25 @@ DC-DC converters supply the various voltage rails required by different sub-syst
 | `Figures/` | Diagrams and images used in documentation |
 | `Feedback Documents from Dr. Bob Lawlor/` | Supervisor feedback |
 | `FYP_Template/` | Report and document templates |
+| `auto_sync.sh`, `start_sync.bat` | Foreground Git Bash auto-sync (interval-based) |
+| `sync_fyp.ps1`, `sync_fyp.vbs` | Background PowerShell sync (scheduled, silent) |
 
 ## Tools
 
 - **LTSpice** — circuit simulation and AC/transient analysis
 - **KiCad** — schematic capture and PCB layout
 - **MATLAB / Simulink** — system-level modelling
+
+## Repository Sync
+
+Two mechanisms keep local clones in sync with this remote. Both commit, pull, and push automatically; `sync_fyp.log` captures activity.
+
+- **Foreground watcher** — `start_sync.bat` launches `auto_sync.sh` in a Git Bash window (default 60 s interval). Handles divergence by preserving local work on a `backup/<host>/<timestamp>` branch before resetting to remote.
+- **Background watcher** — `sync_fyp.vbs` runs `sync_fyp.ps1` silently (scheduled task, 15 min interval).
+
+### Setting up on a new machine
+
+`start_sync.bat` hardcodes the Git Bash executable path. On first setup, edit line 4 to point at the local Git install — e.g. `C:\Program Files\Git\bin\bash.exe` for a system-wide install, or `C:\Users\<user>\AppData\Local\Programs\Git\bin\bash.exe` for a per-user install. Run `where git` to check which one is present.
 
 ## Supervisor
 
