@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\21455956\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
-Start Time: Wed Apr 22 18:21:11 2026
+Start Time: Wed Apr 22 19:27:22 2026
 Options:gmin=1e-12 cshunt=1e-15
 solver = Normal
 Maximum thread count: 28
@@ -11,7 +11,7 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 9.029 seconds.
+Total elapsed time: 7.145 seconds.
 
 Files loaded:
 C:\Users\21455956\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
