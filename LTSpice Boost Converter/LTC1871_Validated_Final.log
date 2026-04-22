@@ -1,0 +1,30 @@
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\21455956\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final.net
+Start Time: Wed Apr 22 10:07:28 2026
+Options:gmin=1e-12 cshunt=1e-15
+solver = Normal
+Maximum thread count: 28
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Total elapsed time: 0.141 seconds.
+
+Files loaded:
+C:\Users\21455956\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final.net
+C:\Users\21455956\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\21455956\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\21455956\AppData\Local\LTspice\lib\sub\LTC1871.sub
+
+vout_before: AVG(V(OUT) )=-6.79602807884 FROM 0.004 TO 0.005
+vout_droop: MIN(V(OUT) )=-7.1980331707 FROM 0.0051 TO 0.0054
+Measurement "vout_recovery" FAIL'ed
+vout_after: AVG(V(OUT) )=-7.44206284563 FROM 0.006 TO 0.007
+vout_ripple: PP(V(OUT) )=0.182945661545 FROM 0.006 TO 0.007
+il_peak_late: MAX(I(L1) )=-2078.35205078 FROM 0.0105 TO 0.011
+pin: AVG(V(IN)*(-I(V1)) )=-18537.9424919 FROM 0.006 TO 0.007
+pout: AVG(V(OUT)*I(I1) )=-14.8841256913 FROM 0.006 TO 0.007
+eff: Pout/Pin*100=0.0802900629226
