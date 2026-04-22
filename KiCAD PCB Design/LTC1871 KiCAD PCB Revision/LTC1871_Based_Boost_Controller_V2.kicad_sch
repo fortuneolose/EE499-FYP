@@ -2251,7 +2251,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:Q_Dual_NPN_NPN_B1E2B2C2E1C1"
+		(symbol "Transistor_BJT:Q_NPN_BEC"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2272,7 +2272,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_Dual_NPN_NPN_B1E2B2C2E1C1"
+			(property "Value" "Q_NPN_BEC"
 				(at 5.08 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2305,7 +2305,7 @@
 					)
 				)
 			)
-			(property "Description" "Dual NPN transistor, 6 pin package"
+			(property "Description" "NPN transistor, base/emitter/collector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2316,10 +2316,22 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
+			(property "Sim.Device" "NPN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2337,7 +2349,19 @@
 					)
 				)
 			)
-			(symbol "Q_Dual_NPN_NPN_B1E2B2C2E1C1_0_1"
+			(symbol "Q_NPN_BEC_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0.635 1.905) (xy 0.635 -1.905)
@@ -2350,21 +2374,22 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+			)
+			(symbol "Q_NPN_BEC_1_1"
 				(polyline
 					(pts
-						(xy 0.635 0) (xy -2.54 0)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2386,17 +2411,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
@@ -2409,12 +2423,10 @@
 						(type outline)
 					)
 				)
-			)
-			(symbol "Q_Dual_NPN_NPN_B1E2B2C2E1C1_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "B1"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2432,45 +2444,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q_Dual_NPN_NPN_B1E2B2C2E1C1_2_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2485,10 +2459,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "B2"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2496,24 +2470,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3075,12 +3031,6 @@
 		(uuid "09f1630d-83e3-4657-b826-57c00b0ebe97")
 	)
 	(junction
-		(at 138.43 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b0c0a39-29e0-41fe-a4f6-f98caf5b3d27")
-	)
-	(junction
 		(at 214.63 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3127,6 +3077,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33f46fa0-7d23-419f-bdec-2d140cf113dc")
+	)
+	(junction
+		(at 138.43 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3573e255-13ed-4659-8eb2-fbc05e6945b9")
 	)
 	(junction
 		(at 147.32 66.04)
@@ -3722,16 +3678,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 12.7) (xy 185.42 7.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fa26133-329e-48f1-bcd7-938087e50b4e")
-	)
-	(wire
-		(pts
 			(xy 76.2 38.1) (xy 82.55 38.1)
 		)
 		(stroke
@@ -4102,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 22.86) (xy 185.42 36.83)
+			(xy 184.15 22.86) (xy 184.15 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4132,7 +4078,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 7.62) (xy 160.02 7.62)
+			(xy 184.15 12.7) (xy 160.02 12.7)
 		)
 		(stroke
 			(width 0)
@@ -4212,6 +4158,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 25.4) (xy 185.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1b1a12-1566-4137-81cd-dfb4da8314f7")
+	)
+	(wire
+		(pts
 			(xy 173.99 96.52) (xy 176.53 96.52)
 		)
 		(stroke
@@ -4269,6 +4225,16 @@
 			(type default)
 		)
 		(uuid "96984f3d-5195-49e0-903d-6f330062f116")
+	)
+	(wire
+		(pts
+			(xy 185.42 25.4) (xy 185.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969c5b23-691f-403e-be3c-d0305fc5ebe6")
 	)
 	(wire
 		(pts
@@ -4662,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 17.78) (xy 177.8 17.78)
+			(xy 138.43 17.78) (xy 176.53 17.78)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4868,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 7.62) (xy 160.02 60.96)
+			(xy 160.02 12.7) (xy 160.02 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5101,99 +5067,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_NPN_B1E2B2C2E1C1")
-		(at 182.88 17.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "031a5ba5-c35d-4364-bef0-9e8b8a996d89")
-		(property "Reference" "Q3"
-			(at 187.96 16.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_NPN_B1E2B2C2E1C1"
-			(at 181.61 24.892 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 15.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN transistor, 6 pin package"
-			(at 182.88 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1c0f5a9d-0632-4750-a37d-78450aa44ec6")
-		)
-		(pin "6"
-			(uuid "29b343e7-9f69-4048-8e04-c9e3beaec08a")
-		)
-		(pin "2"
-			(uuid "dd6c8cdb-e4a4-4efa-89d0-2b4472f94d5f")
-		)
-		(pin "5"
-			(uuid "63343765-a898-4ca2-b534-844ee35510e5")
-		)
-		(pin "3"
-			(uuid "676e45f3-c877-473a-9a1a-29739b762c73")
-		)
-		(pin "4"
-			(uuid "760804dd-1be0-488c-842c-ba9dd7db1b8b")
-		)
-		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
-				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 157.48 90.17 90)
 		(unit 1)
@@ -5293,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "BZX84"
 			(at 123.19 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5303,7 +5176,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 123.19 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -7623,7 +7496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 140.97 26.6699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7634,7 +7507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 136.652 25.4 90)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +7897,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 111.76 13.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8034,7 +7907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 111.76 19.558 90)
 			(hide yes)
 			(show_name no)
@@ -10048,6 +9921,113 @@
 			(project "LTC1871_Based_Boost_Controller_V2"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:Q_NPN_BEC")
+		(at 181.61 17.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1a010eb-9dbf-4c27-b0d1-5924350b790c")
+		(property "Reference" "Q4"
+			(at 186.69 16.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NPN_BEC"
+			(at 186.69 19.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 186.69 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 181.61 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 181.61 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 181.61 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b013d0f0-75f7-467e-86e1-ea54e1a4c6b8")
+		)
+		(pin "2"
+			(uuid "2581f37f-3b14-48be-a477-0c541c979f53")
+		)
+		(pin "3"
+			(uuid "52122be9-a723-40d0-a79a-3af760fc262e")
+		)
+		(instances
+			(project "LTC1871_Based_Boost_Controller_V2"
+				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
