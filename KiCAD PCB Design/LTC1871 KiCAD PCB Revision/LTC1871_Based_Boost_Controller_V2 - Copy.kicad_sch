@@ -4960,7 +4960,7 @@
 			(uuid "2c84c334-bace-4db0-8a8c-4ee04eaa8054")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a4")
 					(unit 1)
@@ -5038,7 +5038,7 @@
 			(uuid "5fb6a535-c667-4eed-92e5-0790ca5b58b5")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR020")
 					(unit 1)
@@ -5116,7 +5116,7 @@
 			(uuid "45578edd-344b-4173-ab6a-cb4bbe820bc8")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR011")
 					(unit 1)
@@ -5196,7 +5196,7 @@
 			(uuid "48f7b3cc-3ad8-4c5b-9d4f-0c85dd3236b5")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "D3")
 					(unit 1)
@@ -5274,7 +5274,7 @@
 			(uuid "40139bef-41bb-4ea3-a445-7805215e8b2d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR026")
 					(unit 1)
@@ -5356,7 +5356,7 @@
 			(uuid "dff9159b-520c-43b9-8602-606f43cd3454")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "Q2")
 					(unit 1)
@@ -5433,7 +5433,7 @@
 			(uuid "5e82c167-011b-46e9-b561-2dfa28e177d7")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR012")
 					(unit 1)
@@ -5515,7 +5515,7 @@
 			(uuid "0857e78e-9704-4f62-ae91-9cb9d15890c1")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J2")
 					(unit 1)
@@ -5597,7 +5597,7 @@
 			(uuid "959b24b2-cdd8-458c-a84a-adfcda416dcb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a1")
 					(unit 1)
@@ -5679,7 +5679,7 @@
 			(uuid "d5829736-5385-4bd0-ae5e-ec5c368d9989")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C7")
 					(unit 1)
@@ -5759,7 +5759,7 @@
 			(uuid "629e9092-9814-4462-a5ac-6607426e6161")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "D1")
 					(unit 1)
@@ -5841,7 +5841,7 @@
 			(uuid "165262df-1c26-4db1-ba78-fc521692d2c9")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J_VIN1")
 					(unit 1)
@@ -5920,7 +5920,7 @@
 			(uuid "f2176c85-7638-4e9f-be5c-5e6fba6723d3")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C4")
 					(unit 1)
@@ -5998,7 +5998,7 @@
 			(uuid "3a879acb-1f31-4d08-8935-ad8be675ab94")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR07")
 					(unit 1)
@@ -6076,7 +6076,7 @@
 			(uuid "6d977d55-d1e8-4d38-bc7c-7336154403ef")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR027")
 					(unit 1)
@@ -6157,7 +6157,7 @@
 			(uuid "e1dfc51c-cf6a-4bf6-bb5b-3876a2eec4d2")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1b1")
 					(unit 1)
@@ -6234,7 +6234,7 @@
 			(uuid "4e6d0824-3284-4bc5-913d-d1974c7352a7")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#FLG02")
 					(unit 1)
@@ -6312,7 +6312,7 @@
 			(uuid "1c41836d-7bfd-4762-b2d2-bc00ca1956ff")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR018")
 					(unit 1)
@@ -6392,7 +6392,7 @@
 			(uuid "2478589b-b0fe-4097-a63d-2a2e6e1198a2")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R7")
 					(unit 1)
@@ -6470,7 +6470,7 @@
 			(uuid "6f85928f-4482-4800-855e-dce5cf3f855d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR03")
 					(unit 1)
@@ -6548,7 +6548,7 @@
 			(uuid "fc602916-018e-4467-9653-3648daf52c51")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR016")
 					(unit 1)
@@ -6648,7 +6648,7 @@
 			(uuid "b132f937-a239-4fc3-9720-e9dcfeab8d6d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "Q1")
 					(unit 1)
@@ -6725,7 +6725,7 @@
 			(uuid "b6a853da-1831-4adf-b41f-6aae7b211633")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR01")
 					(unit 1)
@@ -6806,7 +6806,7 @@
 			(uuid "09635ed8-cc55-474d-9159-08ef745b87ef")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C2")
 					(unit 1)
@@ -6884,7 +6884,7 @@
 			(uuid "108250fa-181d-46ea-888b-22659d6ef22b")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR022")
 					(unit 1)
@@ -6966,7 +6966,7 @@
 			(uuid "56282f7c-236d-4a36-949c-2323652171e4")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a3")
 					(unit 1)
@@ -7048,7 +7048,7 @@
 			(uuid "315be997-e119-4a0f-a475-4d5a7b0d5aa8")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a6")
 					(unit 1)
@@ -7126,7 +7126,7 @@
 			(uuid "e3b95e1d-1156-4e79-8c35-b73b7ab1d98b")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR017")
 					(unit 1)
@@ -7204,7 +7204,7 @@
 			(uuid "6bbe4187-a4d2-46db-b65b-2e45b0be2dc2")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR023")
 					(unit 1)
@@ -7235,7 +7235,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "549k"
+		(property "Value" "49k"
 			(at 106.68 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7286,7 +7286,7 @@
 			(uuid "4c664902-e01f-4a04-a19e-fce2a903656a")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R5")
 					(unit 1)
@@ -7367,7 +7367,7 @@
 			(uuid "5f4c9d31-dd7c-49df-980a-f1267ca33b51")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "D2")
 					(unit 1)
@@ -7445,7 +7445,7 @@
 			(uuid "e72e1589-da9e-4792-8294-3f35d40ab3eb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR029")
 					(unit 1)
@@ -7527,7 +7527,7 @@
 			(uuid "16c26764-2c2a-4bf0-bb89-cd1da899d860")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R9")
 					(unit 1)
@@ -7605,7 +7605,7 @@
 			(uuid "f3c8b0c2-f3cc-49c3-8137-6e92f19ba8cd")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR05")
 					(unit 1)
@@ -7683,7 +7683,7 @@
 			(uuid "77732094-2f2b-40ce-9aec-3e2c1ad62dac")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR02")
 					(unit 1)
@@ -7765,7 +7765,7 @@
 			(uuid "075e62e5-ed9b-47f1-a82d-2cd2ca14b472")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "L1")
 					(unit 1)
@@ -7847,7 +7847,7 @@
 			(uuid "8934e513-efe4-4788-8860-c600a86564e4")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a2")
 					(unit 1)
@@ -7877,7 +7877,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.38k"
 			(at 111.76 13.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7927,7 +7927,7 @@
 			(uuid "26c361ce-1ccb-4672-bc48-625504319ed4")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R8")
 					(unit 1)
@@ -8005,7 +8005,7 @@
 			(uuid "cf8658be-d0c4-4b3e-90dc-ba657aef49cb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR06")
 					(unit 1)
@@ -8087,7 +8087,7 @@
 			(uuid "803570ef-60e4-480c-a7f7-f4067f4299ee")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a7")
 					(unit 1)
@@ -8169,7 +8169,7 @@
 			(uuid "bbe10416-fc44-438e-9c91-8305ac441894")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1a5")
 					(unit 1)
@@ -8250,7 +8250,7 @@
 			(uuid "a83c25d6-9f87-47b6-b279-cf94e5eee6e6")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C5")
 					(unit 1)
@@ -8327,7 +8327,7 @@
 			(uuid "a3a0a244-f0d0-496e-9a30-15a4cee3b59d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#FLG01")
 					(unit 1)
@@ -8405,7 +8405,7 @@
 			(uuid "14c70cd9-7566-4f23-9710-aa52f285b698")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR019")
 					(unit 1)
@@ -8487,7 +8487,7 @@
 			(uuid "df0b315d-0772-4781-b1f8-96cbd5fc98c3")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R2")
 					(unit 1)
@@ -8578,7 +8578,7 @@
 			(uuid "108779a8-7c93-4819-8355-62934c130357")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J5")
 					(unit 1)
@@ -8668,7 +8668,7 @@
 			(uuid "2891431a-9919-4289-86bc-8004fd22685e")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J3")
 					(unit 1)
@@ -8749,7 +8749,7 @@
 			(uuid "9a926c5a-7e5f-454e-8e4d-722fba2b4a87")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1b2")
 					(unit 1)
@@ -8827,7 +8827,7 @@
 			(uuid "6ea8f92e-c8ad-45b9-8eaf-4c4db51ed442")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR014")
 					(unit 1)
@@ -8905,7 +8905,7 @@
 			(uuid "6146c15e-a8a4-4865-b27a-d7d07592cdfb")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR030")
 					(unit 1)
@@ -8983,7 +8983,7 @@
 			(uuid "61bb3e60-ac60-4056-869e-766c82eb2c18")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR028")
 					(unit 1)
@@ -9061,7 +9061,7 @@
 			(uuid "1bd85280-930f-4895-b1c3-f9b30d5f649a")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR013")
 					(unit 1)
@@ -9151,7 +9151,7 @@
 			(uuid "509d3e13-656e-45d1-b306-31aefcda8dea")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "J4")
 					(unit 1)
@@ -9228,7 +9228,7 @@
 			(uuid "b2ab7191-8f99-47a4-b4d9-4532c2b92145")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR010")
 					(unit 1)
@@ -9310,7 +9310,7 @@
 			(uuid "a6afcc0d-1a37-4434-be41-7101bb47a65f")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R3")
 					(unit 1)
@@ -9391,7 +9391,7 @@
 			(uuid "2fa91aa4-8feb-4ede-ad58-e0f6ce35b84d")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C3")
 					(unit 1)
@@ -9497,7 +9497,7 @@
 			(uuid "39a633da-c76e-452f-8b5e-846a2b5eb16f")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "U1")
 					(unit 1)
@@ -9579,7 +9579,7 @@
 			(uuid "812121da-4c86-4108-a3af-6ffadf9aef89")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C1")
 					(unit 1)
@@ -9657,7 +9657,7 @@
 			(uuid "399eaf07-445a-4f69-9095-69c1c1e13e22")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR024")
 					(unit 1)
@@ -9736,7 +9736,7 @@
 			(uuid "1ece8358-6888-4412-a780-e1186735b21a")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR08")
 					(unit 1)
@@ -9768,7 +9768,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 106.68 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9819,7 +9819,7 @@
 			(uuid "f73f1993-f07e-44f8-8c63-e4a3dfcdb1be")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R6")
 					(unit 1)
@@ -9898,7 +9898,7 @@
 			(uuid "d7e038f9-3a68-46f0-8703-5adff8d8fb6a")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R1")
 					(unit 1)
@@ -10005,7 +10005,7 @@
 			(uuid "52122be9-a723-40d0-a79a-3af760fc262e")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "Q4")
 					(unit 1)
@@ -10083,7 +10083,7 @@
 			(uuid "3230083b-8539-4901-b693-cf36fd2f54e8")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR015")
 					(unit 1)
@@ -10165,7 +10165,7 @@
 			(uuid "c28964a5-1d80-4706-a297-ea593e692416")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "C6")
 					(unit 1)
@@ -10243,7 +10243,7 @@
 			(uuid "c414cd07-611e-44db-94fa-1d0807caa2f1")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR025")
 					(unit 1)
@@ -10323,7 +10323,7 @@
 			(uuid "f3ac41dd-1b39-457c-ab44-97337751bd13")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "R4")
 					(unit 1)
@@ -10401,7 +10401,7 @@
 			(uuid "a0dd3a3f-4a11-4927-b5d5-daeb24d9f729")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR021")
 					(unit 1)
@@ -10478,7 +10478,7 @@
 			(uuid "4d48e40f-687e-48c0-844c-28fa81473bcc")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR04")
 					(unit 1)
@@ -10556,7 +10556,7 @@
 			(uuid "d3092632-cea1-42ef-8754-65ff3805899b")
 		)
 		(instances
-			(project "LTC1871_Based_Boost_Controller_V2"
+			(project "LTC1871_Based_Boost_Controller_V2 - Copy"
 				(path "/afd51646-14c5-4e75-88ba-419bc48b66e0"
 					(reference "#PWR09")
 					(unit 1)
