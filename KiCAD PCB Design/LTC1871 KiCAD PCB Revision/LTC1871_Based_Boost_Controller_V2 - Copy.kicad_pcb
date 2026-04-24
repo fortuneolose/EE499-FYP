@@ -2165,7 +2165,7 @@
 			)
 		)
 		(property "Value" "100µ"
-			(at 1.75 5.25 0)
+			(at 7 3.5 0)
 			(layer "F.Fab")
 			(uuid "be166176-e73d-41ec-bb3b-08d058fab290")
 			(effects
