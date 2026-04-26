@@ -1,13 +1,13 @@
 LTspice 24.1.10 for Windows
 Circuit: C:\Users\avent\OneDrive\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
-Start Time: Sat Apr 25 21:26:36 2026
+Start Time: Sun Apr 26 16:48:26 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration for .op point succeeded.
-Total elapsed time: 10.941 seconds.
+Total elapsed time: 0.219 seconds.
 
 Files loaded:
 C:\Users\avent\OneDrive\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
@@ -16,21 +16,21 @@ C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.bjt
 C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\avent\AppData\Local\LTspice\lib\sub\LTC1871.sub
 
-vout_before: AVG(V(OUT))=12.1974146943 FROM 0.004 TO 0.005
-vout_after: AVG(V(OUT))=12.1951158484 FROM 0.006 TO 0.007
-vout_droop: MIN(V(OUT))=11.9781847 FROM 0.0051 TO 0.0054
-vout_droop_mv: (Vout_before-Vout_droop)*1000=219.229994282
-vout_droop_pct: (Vout_before-Vout_droop)/Vout_before*100=1.79734804282
-vout_recovery: TIME=0.00504503937302 at 0.00504503937302
-vout_ripple: PP(V(OUT))=0.0275936126709 FROM 0.006 TO 0.007
-vout_ripple_mv: Vout_ripple*1000=27.5936126709
-il_peak: MAX(I(L1))=3.34864139557 FROM 0.004 TO 0.005
-pin: AVG(V(IN)*(-I(V1)))=28.2487893592 FROM 0.006 TO 0.007
-pout: AVG(V(OUT)*I(I1))=24.3902316969 FROM 0.006 TO 0.007
-eff: Pout/Pin*100=86.3408034475
-iin_avg: AVG(I(L1))=3.52570450609 FROM 0.006 TO 0.007
-p_d1: AVG(V(SW)-V(OUT))*I(D1)=1.05439625598 FROM 0.006 TO 0.007
-p_m1: AVG(V(SW)*Id(M1))=0.135924642765 FROM 0.006 TO 0.007
-p_l1: AVG(I(L1)*I(L1)*0.014)=0.174905978842 FROM 0.006 TO 0.007
-p_loss_total: Pin-Pout=3.85855766227
-p_m2: AVG(V(in, n007)*Id(M2))=-0.355442462402 FROM 0.006 TO 0.007
+vout_before: AVG(V(OUT))=6.23307847977 FROM 0.004 TO 0.005
+vout_after: AVG(V(OUT))=5.94965191999 FROM 0.006 TO 0.007
+vout_droop: MIN(V(OUT))=5.83897686005 FROM 0.0051 TO 0.0054
+vout_droop_mv: (Vout_before-Vout_droop)*1000=394.101619721
+vout_droop_pct: (Vout_before-Vout_droop)/Vout_before*100=6.32274438707
+Measurement "vout_recovery" FAIL'ed
+vout_ripple: PP(V(OUT))=4.05311584473e-05 FROM 0.006 TO 0.007
+vout_ripple_mv: Vout_ripple*1000=0.0405311584473
+il_peak: MAX(I(L1))=0.500011265278 FROM 0.004 TO 0.005
+pin: AVG(V(IN)*(-I(V1)))=14.000919379 FROM 0.006 TO 0.007
+pout: AVG(V(OUT)*I(I1))=11.89930384 FROM 0.006 TO 0.007
+eff: Pout/Pin*100=84.9894461776
+iin_avg: AVG(I(L1))=2.00001323067 FROM 0.006 TO 0.007
+p_d1: AVG(V(SW)-V(OUT))*I(D1)=0.93945327034 FROM 0.006 TO 0.007
+p_m1: AVG(V(SW)*Id(M1))=3.32051236202e-10 FROM 0.006 TO 0.007
+p_l1: AVG(I(L1)*I(L1)*0.014)=0.0560007409326 FROM 0.006 TO 0.007
+p_loss_total: Pin-Pout=2.10161553902
+p_m2: AVG(V(n007, in)*Id(M2))=0.116245084885 FROM 0.006 TO 0.007

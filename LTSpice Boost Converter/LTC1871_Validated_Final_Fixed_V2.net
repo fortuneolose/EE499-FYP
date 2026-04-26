@@ -35,7 +35,7 @@ R10 N006 0 10k
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
-.param VIN=8
+.param VIN=7
 .tran 8m startup
 ; === OUTPUT VOLTAGE (Abstract: 12.20V) ===
 .meas TRAN Vout_before AVG V(OUT) FROM 4m TO 5m
@@ -59,7 +59,7 @@ R10 N006 0 10k
 .meas TRAN P_M1 AVG V(SW)*Id(M1)         FROM 6m TO 7m
 .meas TRAN P_L1 AVG I(L1)*I(L1)*0.014    FROM 6m TO 7m
 .meas TRAN P_loss_total PARAM Pin-Pout
-.meas TRAN P_M2 AVG V(in, n007)*Id(M2) FROM 6m TO 7m
+.meas TRAN P_M2 AVG V(n007, in)*Id(M2) FROM 6m TO 7m
 * === VALIDATED MODEL with series FDS4435A Protection (17-Apr-2026, D2 removed from power path) ===
 * M1: IRF7811 N-MOSFET (validated, SI4894BDY for hardware)
 * M2: FDS4435A P-MOSFET (simulation proxy for DMP3099L)
