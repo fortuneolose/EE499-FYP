@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
-Circuit: C:\Users\21455956\OneDrive - Maynooth University\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
-Start Time: Thu Apr 30 19:01:55 2026
+Circuit: C:\Users\21455956\Repos\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
+Start Time: Fri May  1 18:25:08 2026
 solver = Normal
 Maximum thread count: 28
 tnom = 27
@@ -10,30 +10,30 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.155 seconds.
+Total elapsed time: 5.899 seconds.
 
 Files loaded:
-C:\Users\21455956\OneDrive - Maynooth University\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
+C:\Users\21455956\Repos\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
 C:\Users\21455956\AppData\Local\LTspice\lib\cmp\standard.dio
 C:\Users\21455956\AppData\Local\LTspice\lib\cmp\standard.bjt
 C:\Users\21455956\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\21455956\AppData\Local\LTspice\lib\sub\LTC1871.sub
 
-vout_before: AVG(V(OUT) )=-0.981438934804 FROM 0.004 TO 0.005
-vout_after: AVG(V(OUT) )=-1.11684083939 FROM 0.006 TO 0.007
-vout_droop: MIN(V(OUT) )=-1.11684083939 FROM 0.0051 TO 0.0054
-vout_droop_mv: (Vout_before-Vout_droop)*1000=135.401904582
-vout_droop_pct: (Vout_before-Vout_droop)/Vout_before*100=-13.7962638103
-Measurement "vout_recovery" FAIL'ed
-vout_ripple: PP(V(OUT) )=0 FROM 0.006 TO 0.007
-vout_ripple_mv: Vout_ripple*1000=0
-il_peak: MAX(I(L1) )=-3.09788592858e-05 FROM 0.004 TO 0.005
-pin: AVG(V(IN)*(-I(V1)) )=0.000297519776928 FROM 0.006 TO 0.007
-pout: AVG(V(OUT)*I(I1) )=-2.23368167877 FROM 0.006 TO 0.007
-eff: Pout/Pin*100=-750767.462195
-iin_avg: AVG(I(L1) )=-3.16986767328e-05 FROM 0.006 TO 0.007
-p_d1: AVG((V(SW)-V(OUT))*I(D1) )=0.939445139731 FROM 0.006 TO 0.007
-p_m1: AVG(V(SW)*Id(M1)         )=1.29425487273 FROM 0.006 TO 0.007
-p_l1: AVG(I(L1)*I(L1)*0.014    )=1.4067285504e-11 FROM 0.006 TO 0.007
-p_loss_total: Pin-Pout=2.23397919855
-p_m2: AVG(V(n007, in)*Id(M2) )=1.1490143089e-05 FROM 0.006 TO 0.007
+vout_before: AVG(V(OUT) )=12.197451779 FROM 0.004 TO 0.005
+vout_after: AVG(V(OUT) )=12.2094682692 FROM 0.006 TO 0.007
+vout_droop: MIN(V(OUT) )=12.1630277634 FROM 0.0051 TO 0.0054
+vout_droop_mv: (Vout_before-Vout_droop)*1000=34.4240156389
+vout_droop_pct: (Vout_before-Vout_droop)/Vout_before*100=0.282223010696
+vout_recovery: TIME =0.005032964473 at 0.005032964473
+vout_ripple: PP(V(OUT) )=0.172831535339 FROM 0.006 TO 0.007
+vout_ripple_mv: Vout_ripple*1000=172.831535339
+il_peak: MAX(I(L1) )=3.5269920826 FROM 0.004 TO 0.005
+pin: AVG(V(IN)*(-I(V1)) )=27.8220498668 FROM 0.006 TO 0.007
+pout: AVG(V(OUT)*I(I1) )=24.4189365384 FROM 0.006 TO 0.007
+eff: Pout/Pin*100=87.7682868636
+iin_avg: AVG(I(L1) )=3.08597549133 FROM 0.006 TO 0.007
+p_d1: AVG((V(SW)-V(OUT))*I(D1) )=1.02762153104 FROM 0.006 TO 0.007
+p_m1: AVG(V(SW)*Id(M1)         )=0.106603207955 FROM 0.006 TO 0.007
+p_l1: AVG(I(L1)*I(L1)*0.014    )=0.135272156215 FROM 0.006 TO 0.007
+p_loss_total: Pin-Pout=3.40311332838
+p_m2: AVG(V(n007, in)*Id(M2) )=0.269785010908 FROM 0.006 TO 0.007
