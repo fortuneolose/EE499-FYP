@@ -1,6 +1,6 @@
 LTspice 24.1.3 for Windows
 Circuit: C:\Users\avent\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
-Start Time: Tue May  5 15:37:40 2026
+Start Time: Tue May  5 18:14:38 2026
 solver = Alternate
 Maximum thread count: 16
 tnom = 27
@@ -39,13 +39,7 @@ Changing Tseed to 7.8125e-16
 Changing Tseed to 7.8125e-05
 Changing Tseed to 7.8125e-17
 Changing Tseed to 1e-17
-.step vin=8
-.step vin=8.1
-.step vin=9.6
-.step vin=11
-.step vin=11.1
-.step vin=12
-Total elapsed time: 79.811 seconds.
+Total elapsed time: 0.503 seconds.
 
 Files loaded:
 C:\Users\avent\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2.net
@@ -54,165 +48,21 @@ C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.bjt
 C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
 C:\Users\avent\AppData\Local\LTspice\lib\sub\LTC1871.sub
 
-
-Measurement: Vout_before
-  step	AVG(V(OUT))	FROM	TO
-     1	12.1976415531	0.004	0.005
-     2	12.1970099773	0.004	0.005
-     3	12.1961711306	0.004	0.005
-     4	12.1956223202	0.004	0.005
-     5	12.1975284816	0.004	0.005
-     6	11.2342033386	0.004	0.005
-
-Measurement: Vout_after
-  step	AVG(V(OUT))	FROM	TO
-     1	12.1951216519	0.006	0.007
-     2	12.1951618822	0.006	0.007
-     3	12.1977643738	0.006	0.007
-     4	12.1977616608	0.006	0.007
-     5	12.1973193502	0.006	0.007
-     6	10.9541801789	0.006	0.007
-
-Measurement: Vout_droop
-  step	MIN(V(OUT))	FROM	TO
-     1	11.9798851013	0.0051	0.0054
-     2	11.9851751328	0.0051	0.0054
-     3	12.0875492096	0.0051	0.0054
-     4	12.0783510208	0.0051	0.0054
-     5	12.0698957443	0.0051	0.0054
-     6	10.8418560028	0.0051	0.0054
-
-Measurement: Vout_droop_mV
-  step	(Vout_before-Vout_droop)*1000
-     1	217.756451821
-     2	211.834844519
-     3	108.621920967
-     4	117.271299345
-     5	127.632737283
-     6	392.347335817
-
-Measurement: Vout_droop_pct
-  step	(Vout_before-Vout_droop)/Vout_before*100
-     1	1.78523406244
-     2	1.7367768405
-     3	0.890623129209
-     4	0.961585200541
-     5	1.04638195742
-     6	3.4924357695
-
-Measurement: Vout_recovery
-  step	TIME	at
-     1	0.00500423670955	0.00500423670955
-     2	0.0050398845648	0.0050398845648
-     3	0.0050423051976	0.0050423051976
-     4	0.0050499004653	0.0050499004653
-     5	0.00502706965927	0.00502706965927
-     6	failed	0
-
-Measurement: Vout_ripple
-  step	PP(V(OUT))	FROM	TO
-     1	0.027400970459	0.006	0.007
-     2	0.0265636444092	0.006	0.007
-     3	0.171104431152	0.006	0.007
-     4	0.171911239624	0.006	0.007
-     5	0.177801132202	0.006	0.007
-     6	4.67300415039e-05	0.006	0.007
-
-Measurement: Vout_ripple_mV
-  step	Vout_ripple*1000
-     1	27.400970459
-     2	26.5636444092
-     3	171.104431152
-     4	171.911239624
-     5	177.801132202
-     6	0.0467300415039
-
-Measurement: IL_peak
-  step	MAX(I(L1))	FROM	TO
-     1	3.35535049438	0.004	0.005
-     2	3.37899875641	0.004	0.005
-     3	3.54419159889	0.004	0.005
-     4	3.5600028038	0.004	0.005
-     5	3.56134343147	0.004	0.005
-     6	0.500020265579	0.004	0.005
-
-Measurement: Pin
-  step	AVG(V(IN)*(-I(V1)))	FROM	TO
-     1	28.2478682523	0.006	0.007
-     2	28.1836268419	0.006	0.007
-     3	27.3062450838	0.006	0.007
-     4	27.2459097865	0.006	0.007
-     5	27.3572277604	0.006	0.007
-     6	24.0059301112	0.006	0.007
-
-Measurement: Pout
-  step	AVG(V(OUT)*I(I1))	FROM	TO
-     1	24.3902433039	0.006	0.007
-     2	24.3903237645	0.006	0.007
-     3	24.3955287477	0.006	0.007
-     4	24.3955233216	0.006	0.007
-     5	24.3946387003	0.006	0.007
-     6	21.9083603578	0.006	0.007
-
-Measurement: Eff
-  step	Pout/Pin*100
-     1	86.3436599394
-     2	86.5407560967
-     3	89.3404738469
-     4	89.5382958864
-     5	89.1707263396
-     6	91.2622850116
-
-Measurement: Iin_avg
-  step	AVG(I(L1))	FROM	TO
-     1	3.52558467669	0.006	0.007
-     2	3.47405951793	0.006	0.007
-     3	2.83949543818	0.006	0.007
-     4	2.47300747066	0.006	0.007
-     5	2.46068194222	0.006	0.007
-     6	2.00002312664	0.006	0.007
-
-Measurement: P_D1
-  step	AVG(V(SW)-V(OUT))*I(D1)	FROM	TO
-     1	1.0536792438	0.006	0.007
-     2	1.05055879032	0.006	0.007
-     3	1.0140857421	0.006	0.007
-     4	1.01462915369	0.006	0.007
-     5	1.01736578577	0.006	0.007
-     6	0.939458832627	0.006	0.007
-
-Measurement: P_M1
-  step	AVG(V(SW)*Id(M1))	FROM	TO
-     1	0.136678610715	0.006	0.007
-     2	0.132994251524	0.006	0.007
-     3	0.0916011334101	0.006	0.007
-     4	0.0623692553568	0.006	0.007
-     5	0.0635733439036	0.006	0.007
-     6	6.47989257408e-10	0.006	0.007
-
-Measurement: P_L1
-  step	AVG(I(L1)*I(L1)*0.014)	FROM	TO
-     1	0.174892738279	0.006	0.007
-     2	0.169834152267	0.006	0.007
-     3	0.123137405601	0.006	0.007
-     4	0.103505085502	0.006	0.007
-     5	0.102935415865	0.006	0.007
-     6	0.0560012951143	0.006	0.007
-
-Measurement: P_loss_total
-  step	Pin-Pout
-     1	3.8576249484
-     2	3.79330307746
-     3	2.91071633614
-     4	2.85038646492
-     5	2.96258906007
-     6	2.09756975344
-
-Measurement: P_M2
-  step	AVG(V(n007, in)*Id(M2))	FROM	TO
-     1	0.355416531001	0.006	0.007
-     2	0.34441452535	0.006	0.007
-     3	0.24322278005	0.006	0.007
-     4	0.200685749456	0.006	0.007
-     5	0.199361889342	0.006	0.007
-     6	0.107186514535	0.006	0.007
+Vout_before: AVG(V(OUT))=11.2342033386 FROM 0.004 TO 0.005
+Vout_after: AVG(V(OUT))=10.9541801789 FROM 0.006 TO 0.007
+Vout_droop: MIN(V(OUT))=10.8418560028 FROM 0.0051 TO 0.0054
+Vout_droop_mV: (Vout_before-Vout_droop)*1000=392.347335817
+Vout_droop_pct: (Vout_before-Vout_droop)/Vout_before*100=3.4924357695
+Measurement "Vout_recovery" FAIL'ed
+Vout_ripple: PP(V(OUT))=4.67300415039e-05 FROM 0.006 TO 0.007
+Vout_ripple_mV: Vout_ripple*1000=0.0467300415039
+IL_peak: MAX(I(L1))=0.500020265579 FROM 0.004 TO 0.005
+Pin: AVG(V(IN)*(-I(V1)))=24.0059301112 FROM 0.006 TO 0.007
+Pout: AVG(V(OUT)*I(I1))=21.9083603578 FROM 0.006 TO 0.007
+Eff: Pout/Pin*100=91.2622850116
+Iin_avg: AVG(I(L1))=2.00002312664 FROM 0.006 TO 0.007
+P_D1: AVG(V(SW)-V(OUT))*I(D1)=0.939458832627 FROM 0.006 TO 0.007
+P_M1: AVG(V(SW)*Id(M1))=6.47989405072e-10 FROM 0.006 TO 0.007
+P_L1: AVG(I(L1)*I(L1)*0.014)=0.0560012951143 FROM 0.006 TO 0.007
+P_loss_total: Pin-Pout=2.09756975344
+P_M2: AVG(V(n007, in)*Id(M2))=0.107186514535 FROM 0.006 TO 0.007

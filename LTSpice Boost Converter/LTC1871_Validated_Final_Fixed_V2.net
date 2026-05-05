@@ -34,7 +34,7 @@ R10 N006 0 10k
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
-.step param VIN list 8.0 8.1 9.6 11.0 11.1 12.0
+.param VIN=12.0
 .tran 8m startup
 ; === OUTPUT VOLTAGE (Abstract: 12.20V) ===
 .meas TRAN Vout_before AVG V(OUT) FROM 4m TO 5m
