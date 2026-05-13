@@ -35,3 +35,39 @@ Gmin = 1.76994e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
+Total elapsed time: 41.252 seconds.
+
+Files loaded:
+C:\Users\avent\OneDrive\Documents\EE499-FYP\LTSpice Boost Converter\LTC1871_Validated_Final_Fixed_V2_AC_Analysis.net
+C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\avent\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\avent\AppData\Local\LTspice\lib\sub\LTC1871.sub
+
+vout_before: AVG(V(OUT))=12.1912490459 FROM 0.004 TO 0.005
+vout_after: AVG(V(OUT))=12.1912092573 FROM 0.006 TO 0.007
+vout_droop: MIN(V(OUT))=12.1303911209 FROM 0.0051 TO 0.0054
+vout_droop_mv: (Vout_before-Vout_droop)*1000=60.8579250153
+vout_droop_pct: (Vout_before-Vout_droop)/Vout_before*100=0.499193518121
+vout_recovery: TIME=0.00500616801421 at 0.00500616801421
+vout_ripple: PP(V(OUT))=0.106574058533 FROM 0.006 TO 0.007
+vout_ripple_mv: Vout_ripple*1000=106.574058533
+il_peak: MAX(I(L1))=4.66177034378 FROM 0.004 TO 0.005
+pin: AVG(V(IN)*(-I(V1)))=27.4436406204 FROM 0.006 TO 0.007
+pout: AVG(V(OUT)*I(I1))=24.3824185146 FROM 0.006 TO 0.007
+eff: Pout/Pin*100=88.8454227043
+iin_avg: AVG(I(L1))=2.74114644714 FROM 0.006 TO 0.007
+p_d1: AVG(V(SW)-V(OUT))*I(D1)=1.02418141041 FROM 0.006 TO 0.007
+p_m1: AVG(V(SW)*Id(M1))=0.0656819862925 FROM 0.006 TO 0.007
+p_l1: AVG(I(L1)*I(L1)*0.014)=0.12307712209 FROM 0.006 TO 0.007
+p_loss_total: Pin-Pout=3.06122210576
+p_m2: AVG(V(n007, in)*Id(M2))=0.241440138999 FROM 0.006 TO 0.007
+i_total_in: AVG(-I(V1))=2.74436495077 FROM 0.006 TO 0.007
+i_l1_avg: AVG(I(L1))=2.74114644714 FROM 0.006 TO 0.007
+v_in_avg: AVG(V(IN))=9.99999724337 FROM 0.006 TO 0.007
+i_r9: AVG(I(R9))=-9.85896540536e-07 FROM 0.006 TO 0.007
+i_r10: AVG(I(R10))=9.85898216868e-07 FROM 0.006 TO 0.007
+p_r5: AVG(I(R5)*I(R5)*5.36)=47.2152923283 FROM 0.006 TO 0.007
+i_cin_rms: RMS(I(Cin))=6.69820159039e-05 FROM 0.006 TO 0.007
+v_sense_pp: PP(V(n012))=0.0123920030892 FROM 0.01 TO 0.015
+v_ic_pp: PP(V(n014))=0.20945860073 FROM 0.01 TO 0.015
